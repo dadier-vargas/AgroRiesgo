@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroRiesgo IA - Predicción de Riesgo de Pérdida de Cultivos</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome & Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+    <!-- Barra de Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark agy-nav sticky-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+                <span class="brand-icon"><i class="fa-solid fa-seedling"></i></span>
+                <div>
+                    <span class="brand-title fw-bold">AgroRiesgo <span class="badge-ia">IA</span></span>
+                    <span class="d-block brand-sub">Agricultura Inteligente de Colombia</span>
+                </div>
+            </a>
+            <div class="d-flex align-items-center gap-2">
+                <span class="badge bg-light text-dark d-none d-md-inline-flex align-items-center gap-1 border">
+                    <i class="fa-solid fa-graduation-cap text-success"></i> Inteligencia Artificial
+                </span>
+                <span class="badge bg-success-subtle text-success-emphasis border border-success-subtle d-none d-lg-inline-block">
+                    ODS 2 Hambre Cero · ODS 12
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Hero -->
+    <header class="hero-section py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <span class="badge bg-success px-3 py-2 rounded-pill mb-2">
+                        <i class="fa-solid fa-shield-halved me-1"></i> Asistencia Técnica y Prevención Agrícola
+                    </span>
+                    <h1 class="hero-title fw-bold text-white">
+                        Anticipación Inteligente del Riesgo de Pérdida de Cultivos
+                    </h1>
+                    <p class="hero-desc text-white-50 mb-3">
+                        Modelo de Aprendizaje Supervisado entrenado con más de 116.000 siembras de las Evaluaciones Agropecuarias Municipales (EVA - MinAgricultura). Ingrese los datos de su siembra para predecir el riesgo de pérdida alta, estimar la cosecha y recibir recomendaciones preventivas.
+                    </p>
+                    <div class="d-flex flex-wrap gap-2 pt-1">
+                        <span class="text-white-50 small me-1 align-self-center"><i class="fa-solid fa-flask me-1"></i> Probar casos reales del estudio:</span>
+                        <button class="btn btn-sm btn-outline-light rounded-pill demo-btn" data-caso="alto">
+                            <i class="fa-solid fa-circle text-danger me-1"></i> Caso Alto Riesgo (Magdalena)
+                        </button>
+                        <button class="btn btn-sm btn-outline-light rounded-pill demo-btn" data-caso="medio">
+                            <i class="fa-solid fa-circle text-warning me-1"></i> Caso Medio (Antioquia)
+                        </button>
+                        <button class="btn btn-sm btn-outline-light rounded-pill demo-btn" data-caso="bajo">
+                            <i class="fa-solid fa-circle text-success me-1"></i> Caso Bajo Riesgo (Boyacá)
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-4 d-none d-lg-block text-end">
+                    <div class="hero-stats-card p-3 rounded-4 shadow-sm text-start bg-white bg-opacity-10 backdrop-blur border border-white border-opacity-25 text-white">
+                        <div class="d-flex align-items-center gap-3 mb-2">
+                            <div class="stat-icon-wrap bg-white text-success rounded-circle">
+                                <i class="fa-solid fa-tree"></i>
+                            </div>
+                            <div>
+                                <div class="fs-5 fw-bold">Árbol de Decisión</div>
+                                <small class="text-white-70">Explicable (Profundidad 8)</small>
+                            </div>
+                        </div>
+                        <hr class="my-2 border-white opacity-25">
+                        <div class="row g-2 text-center text-white small">
+                            <div class="col-4">
+                                <div class="fw-bold fs-6">77.4%</div>
+                                <span class="text-white-50" style="font-size: 0.75rem;">Exactitud</span>
+                            </div>
+                            <div class="col-4">
+                                <div class="fw-bold fs-6">63.8%</div>
+                                <span class="text-white-50" style="font-size: 0.75rem;">Sensibilidad</span>
+                            </div>
+                            <div class="col-4">
+                                <div class="fw-bold fs-6">0.77</div>
+                                <span class="text-white-50" style="font-size: 0.75rem;">AUC-ROC</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Barra de Pestañas de Navegación de Vistas -->
+    <div class="bg-white border-bottom shadow-sm">
+        <div class="container">
+            <ul class="nav nav-pills py-2 gap-2" id="mainTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active fw-bold px-3 py-2 rounded-pill" id="tab-agricultor" data-bs-toggle="pill" data-bs-target="#view-agricultor" type="button" role="tab">
+                        <i class="fa-solid fa-tractor me-1"></i> 1. Consulta del Productor / Agricultor
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link fw-bold px-3 py-2 rounded-pill text-secondary" id="tab-extensionista" data-bs-toggle="pill" data-bs-target="#view-extensionista" type="button" role="tab">
+                        <i class="fa-solid fa-clipboard-list me-1"></i> 2. Panel del Extensionista (UMATA / ICA)
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Contenido Principal -->
+    <main class="container my-4">
+        
+        <div class="tab-content" id="mainTabContent">
+
+            <!-- PESTAÑA 1: VISTA DEL AGRICULTOR -->
+            <div class="tab-pane fade show active" id="view-agricultor" role="tabpanel">
+                <div class="row g-4">
+                    
+                    <!-- Columna Izquierda: Formulario de Registro de Siembra -->
+                    <div class="col-lg-5">
+                        <div class="card agy-card shadow-sm border-0 rounded-4 sticky-lg-top" style="top: 90px; z-index: 10;">
+                            <div class="card-header bg-white border-0 pt-4 pb-0 px-4">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="d-flex align-items-center gap-2">
+                                        <span class="badge-icon-step bg-success text-white">1</span>
+                                        <h5 class="fw-bold mb-0 text-dark">Registro de Siembra</h5>
+                                    </div>
+                                    <button type="button" class="btn btn-sm btn-link text-muted p-0 text-decoration-none" id="btnLimpiar">
+                                        <i class="fa-solid fa-arrow-rotate-left"></i> Limpiar
+                                    </button>
+                                </div>
+                                <p class="text-muted small mt-1 mb-0">Diligencie los 5 datos de su cultivo en el predio</p>
+                            </div>
+
+                            <div class="card-body p-4">
+                                <form id="formSiembra" novalidate>
+                                    
+                                    <!-- Departamento -->
+                                    <div class="mb-3">
+                                        <label for="selectDepartamento" class="form-label fw-semibold text-secondary small">
+                                            <i class="fa-solid fa-map-location-dot text-success me-1"></i> Departamento
+                                        </label>
+                                        <select class="form-select form-select-lg agy-input" id="selectDepartamento" name="departamento" required>
+                                            <option value="" selected disabled>Seleccione un departamento...</option>
+                                            {% for depto in departamentos %}
+                                            <option value="{{ depto }}">{{ depto }}</option>
+                                            {% endfor %}
+                                        </select>
+                                    </div>
+
+                                    <!-- Municipio -->
+                                    <div class="mb-3">
+                                        <label for="selectMunicipio" class="form-label fw-semibold text-secondary small">
+                                            <i class="fa-solid fa-location-dot text-success me-1"></i> Municipio
+                                        </label>
+                                        <select class="form-select form-select-lg agy-input" id="selectMunicipio" name="municipio" required disabled>
+                                            <option value="" selected disabled>Primero elija un departamento...</option>
+                                        </select>
+                                    </div>
+
+                                    <!-- Cultivo -->
+                                    <div class="mb-3">
+                                        <label for="selectCultivo" class="form-label fw-semibold text-secondary small">
+                                            <i class="fa-solid fa-wheat-awn text-success me-1"></i> Cultivo (Variante / Desagregación)
+                                        </label>
+                                        <select class="form-select form-select-lg agy-input" id="selectCultivo" name="cultivo" required>
+                                            <option value="" selected disabled>Seleccione el cultivo...</option>
+                                            {% for cult in cultivos %}
+                                            <option value="{{ cult }}">{{ cult }}</option>
+                                            {% endfor %}
+                                        </select>
+                                    </div>
+
+                                    <!-- Fila: Temporada y Área -->
+                                    <div class="row g-3 mb-3">
+                                        <div class="col-md-6">
+                                            <label for="selectTemporada" class="form-label fw-semibold text-secondary small">
+                                                <i class="fa-solid fa-calendar-days text-success me-1"></i> Temporada
+                                            </label>
+                                            <select class="form-select agy-input" id="selectTemporada" name="temporada" required>
+                                                <option value="A">Semestre A</option>
+                                                <option value="B" selected>Semestre B</option>
+                                                <option value="Anual">Ciclo Anual</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="inputArea" class="form-label fw-semibold text-secondary small">
+                                                <i class="fa-solid fa-chart-area text-success me-1"></i> Área Sembrada (ha)
+                                            </label>
+                                            <div class="input-group">
+                                                <input type="number" class="form-control agy-input" id="inputArea" name="area_sembrada" min="0.1" step="0.5" value="5" required>
+                                                <span class="input-group-text bg-light text-muted">ha</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Año de referencia -->
+                                    <div class="mb-4">
+                                        <label for="inputAnio" class="form-label fw-semibold text-secondary small">
+                                            <i class="fa-regular fa-clock text-success me-1"></i> Año de Proyección / Referencia
+                                        </label>
+                                        <input type="number" class="form-control agy-input" id="inputAnio" name="anio" value="2024" min="2007" max="2030">
+                                        <div class="form-text text-muted" style="font-size: 0.75rem;">
+                                            Calcula el riesgo acumulando el historial municipal hasta dicha fecha.
+                                        </div>
+                                    </div>
+
+                                    <!-- Botón de Envío -->
+                                    <button type="submit" class="btn btn-success btn-lg w-100 rounded-3 py-3 fw-bold shadow-sm d-flex align-items-center justify-content-center gap-2" id="btnPredecir">
+                                        <span class="spinner-border spinner-border-sm d-none" id="btnSpinner" role="status"></span>
+                                        <i class="fa-solid fa-magnifying-glass-chart" id="btnIcon"></i>
+                                        <span>Evaluar Riesgo de la Siembra</span>
+                                    </button>
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Columna Derecha: Resultados y Diagnóstico de IA -->
+                    <div class="col-lg-7">
+
+                        <!-- Estado Inicial / Placeholder antes de predecir -->
+                        <div id="placeholderResultados" class="card agy-card border-0 rounded-4 shadow-sm p-5 text-center">
+                            <div class="my-4">
+                                <div class="placeholder-icon-wrap mx-auto mb-3">
+                                    <i class="fa-solid fa-seedling text-success fa-3x"></i>
+                                </div>
+                                <h4 class="fw-bold text-dark mb-2">Listo para Evaluar su Siembra</h4>
+                                <p class="text-muted max-w-450 mx-auto mb-4">
+                                    Seleccione su departamento, municipio y cultivo a la izquierda, o elija uno de los casos de demostración en la parte superior para ver el diagnóstico instantáneo.
+                                </p>
+                                <div class="row g-3 justify-content-center">
+                                    <div class="col-sm-4">
+                                        <div class="p-3 border rounded-3 bg-light">
+                                            <i class="fa-solid fa-traffic-light text-warning fs-4 mb-2"></i>
+                                            <div class="fw-bold small">Semáforo de Riesgo</div>
+                                            <span class="text-muted" style="font-size: 0.75rem;">Alto, Medio o Bajo</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="p-3 border rounded-3 bg-light">
+                                            <i class="fa-solid fa-scale-balanced text-primary fs-4 mb-2"></i>
+                                            <div class="fw-bold small">Rendimiento (t/ha)</div>
+                                            <span class="text-muted" style="font-size: 0.75rem;">Producción esperada</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="p-3 border rounded-3 bg-light">
+                                            <i class="fa-solid fa-list-check text-success fs-4 mb-2"></i>
+                                            <div class="fw-bold small">Recomendaciones</div>
+                                            <span class="text-muted" style="font-size: 0.75rem;">Acciones preventivas</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Panel de Resultados (Visible tras la predicción) -->
+                        <div id="panelResultados" class="d-none">
+
+                            <!-- Tarjeta Semáforo Principal de Riesgo -->
+                            <div class="card agy-card border-0 rounded-4 shadow-sm mb-4 overflow-hidden" id="cardSemaforo">
+                                <div class="card-body p-4">
+                                    <div class="d-flex flex-wrap align-items-center justify-content-between gap-3 mb-3">
+                                        <div>
+                                            <span class="text-uppercase fw-bold letter-spacing-1 small" id="resSubtitulo">Diagnóstico AgroRiesgo IA</span>
+                                            <h3 class="fw-bold mb-0" id="resNivelTitulo">RIESGO ALTO</h3>
+                                        </div>
+                                        <div class="risk-badge-lg px-4 py-2 rounded-pill fw-bold fs-5 text-white shadow-sm" id="resBadgeNivel">
+                                            <i class="fa-solid fa-triangle-exclamation me-1" id="resIconoNivel"></i> <span id="resTextoBadge">ALTO</span>
+                                        </div>
+                                    </div>
+
+                                    <!-- Resumen del caso consultado -->
+                                    <div class="bg-light p-3 rounded-3 mb-3 border">
+                                        <div class="row g-2 align-items-center text-secondary small">
+                                            <div class="col-sm-6">
+                                                <i class="fa-solid fa-location-dot text-success me-1"></i> <strong id="resUbicacion">ARIGUANI (MAGDALENA)</strong>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <i class="fa-solid fa-plant-wilt text-success me-1"></i> <strong id="resCultivoDetalle">MAIZ TRADICIONAL</strong>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <i class="fa-solid fa-calendar-check text-success me-1"></i> Temporada: <span id="resTemporadaDetalle">2024-B</span>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <i class="fa-solid fa-chart-area text-success me-1"></i> Área: <span id="resAreaDetalle">5 ha</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Barras de Probabilidad de los Modelos -->
+                                    <div class="row g-3 pt-1">
+                                        <div class="col-md-6">
+                                            <div class="border rounded-3 p-3 bg-white h-100">
+                                                <div class="d-flex justify-content-between align-items-center mb-1">
+                                                    <span class="small fw-semibold text-secondary">
+                                                        <i class="fa-solid fa-tree text-success me-1"></i> Árbol de Decisión (Principal)
+                                                    </span>
+                                                    <span class="fw-bold fs-5" id="resProbArbol">91%</span>
+                                                </div>
+                                                <div class="progress agy-progress mb-2">
+                                                    <div class="progress-bar" id="progressBarArbol" role="progressbar" style="width: 91%"></div>
+                                                </div>
+                                                <small class="text-muted d-block" style="font-size: 0.75rem;">
+                                                    Probabilidad estimada de sufrir pérdida alta (&ge; 20% del área sembrada).
+                                                </small>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="border rounded-3 p-3 bg-white h-100">
+                                                <div class="d-flex justify-content-between align-items-center mb-1">
+                                                    <span class="small fw-semibold text-secondary">
+                                                        <i class="fa-solid fa-chart-line text-primary me-1"></i> Regresión Logística (2ª opinión)
+                                                    </span>
+                                                    <span class="fw-bold fs-5" id="resProbLog">86%</span>
+                                                </div>
+                                                <div class="progress agy-progress mb-2">
+                                                    <div class="progress-bar bg-primary" id="progressBarLog" role="progressbar" style="width: 86%"></div>
+                                                </div>
+                                                <small class="text-muted d-block" style="font-size: 0.75rem;">
+                                                    Validación complementaria con características escaladas.
+                                                </small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Fila de Tarjetas: Estimación de Cosecha & Historial Municipal -->
+                            <div class="row g-4 mb-4">
+                                
+                                <!-- Rendimiento y Cosecha -->
+                                <div class="col-md-6">
+                                    <div class="card agy-card border-0 rounded-4 shadow-sm h-100">
+                                        <div class="card-body p-4">
+                                            <div class="d-flex align-items-center gap-2 mb-3">
+                                                <div class="icon-circle bg-primary-subtle text-primary">
+                                                    <i class="fa-solid fa-scale-balanced"></i>
+                                                </div>
+                                                <div>
+                                                    <h6 class="fw-bold mb-0">Rendimiento Esperado</h6>
+                                                    <small class="text-muted">Modelo de Regresión Lineal Múltiple</small>
+                                                </div>
+                                            </div>
+
+                                            <div class="text-center py-2">
+                                                <div class="display-6 fw-bold text-dark mb-0" id="resRendimiento">
+                                                    1.14 <span class="fs-5 text-muted fw-normal">t/ha</span>
+                                                </div>
+                                                <div class="text-muted small mt-1">Toneladas estimadas por hectárea</div>
+                                            </div>
+
+                                            <hr class="my-3 opacity-25">
+
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <span class="text-muted small">Producción Total Estimada:</span>
+                                                <span class="fw-bold fs-6 text-success" id="resProduccionTotal">1,140 t</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Historial Municipal -->
+                                <div class="col-md-6">
+                                    <div class="card agy-card border-0 rounded-4 shadow-sm h-100">
+                                        <div class="card-body p-4">
+                                            <div class="d-flex align-items-center gap-2 mb-3">
+                                                <div class="icon-circle bg-warning-subtle text-warning-emphasis">
+                                                    <i class="fa-solid fa-clock-rotate-left"></i>
+                                                </div>
+                                                <div>
+                                                    <h6 class="fw-bold mb-0">Historial Municipal (EVA)</h6>
+                                                    <small class="text-muted">Antecedentes en este municipio</small>
+                                                </div>
+                                            </div>
+
+                                            <div class="list-group list-group-flush small">
+                                                <div class="list-group-item d-flex justify-content-between px-0 py-2">
+                                                    <span class="text-muted">Temporadas previas registradas:</span>
+                                                    <span class="fw-bold" id="resHistTemporadas">22</span>
+                                                </div>
+                                                <div class="list-group-item d-flex justify-content-between px-0 py-2">
+                                                    <span class="text-muted">Pérdida media histórica municipal:</span>
+                                                    <span class="fw-bold text-dark" id="resHistMedia">16.9%</span>
+                                                </div>
+                                                <div class="list-group-item d-flex justify-content-between px-0 py-2">
+                                                    <span class="text-muted">Pérdida temporada anterior:</span>
+                                                    <span class="fw-bold text-dark" id="resHistAnterior">38.0%</span>
+                                                </div>
+                                                <div class="list-group-item d-flex justify-content-between px-0 py-2">
+                                                    <span class="text-muted">Pérdida media nacional referencia:</span>
+                                                    <span class="text-muted fw-semibold" id="resHistNacional">8.4%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <!-- Explicabilidad del Árbol de Decisión -->
+                            <div class="card agy-card border-0 rounded-4 shadow-sm mb-4">
+                                <div class="card-header bg-white border-0 pt-4 px-4 pb-0">
+                                    <div class="d-flex align-items-center gap-2">
+                                        <div class="icon-circle bg-success-subtle text-success">
+                                            <i class="fa-solid fa-diagram-project"></i>
+                                        </div>
+                                        <div>
+                                            <h6 class="fw-bold mb-0">Explicabilidad: ¿Por qué el modelo tomó esta decisión?</h6>
+                                            <small class="text-muted">Camino de decisiones recorrido en el Árbol de Decisión</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body px-4 pb-4 pt-3">
+                                    <p class="text-muted small mb-3">
+                                        A diferencia de un modelo de caja negra, el árbol de decisión evalúa condiciones comprobables en cada bifurcación para llegar al diagnóstico:
+                                    </p>
+                                    <div class="tree-rules-list" id="listaReglasArbol">
+                                        <!-- Las reglas se inyectan dinámicamente -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Recomendaciones Preventivas Personalizadas -->
+                            <div class="card agy-card border-0 rounded-4 shadow-sm mb-4">
+                                <div class="card-header bg-white border-0 pt-4 px-4 pb-0">
+                                    <div class="d-flex align-items-center gap-2">
+                                        <div class="icon-circle bg-danger-subtle text-danger" id="recomIconCircle">
+                                            <i class="fa-solid fa-hand-holding-hand"></i>
+                                        </div>
+                                        <div>
+                                            <h6 class="fw-bold mb-0">Recomendaciones de Acción Preventiva</h6>
+                                            <small class="text-muted">Medidas recomendadas para mitigar pérdidas antes de cosecha</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body px-4 pb-4 pt-3">
+                                    <ul class="list-unstyled mb-0" id="listaRecomendaciones">
+                                        <!-- Recomendaciones dinámicas -->
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- PESTAÑA 2: VISTA DEL EXTENSIONISTA -->
+            <div class="tab-pane fade" id="view-extensionista" role="tabpanel">
+                <div class="card agy-card border-0 rounded-4 shadow-sm p-4 mb-4">
+                    <div class="row align-items-center g-3 mb-4">
+                        <div class="col-md-7">
+                            <h4 class="fw-bold mb-1 text-dark">
+                                <i class="fa-solid fa-clipboard-check text-success me-2"></i> Panel de Priorización para Extensionistas
+                            </h4>
+                            <p class="text-muted small mb-0">
+                                Permite a las entidades de asistencia técnica (UMATA, ICA, Secretarías de Agricultura) ordenar las siembras por nivel de riesgo para focalizar las visitas de campo antes de la cosecha.
+                            </p>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="d-flex gap-2 align-items-center">
+                                <label for="selectDeptoPanel" class="fw-semibold text-secondary small text-nowrap">Departamento:</label>
+                                <select class="form-select agy-input" id="selectDeptoPanel">
+                                    {% for depto in departamentos %}
+                                    <option value="{{ depto }}" {% if depto == 'BOYACA' %}selected{% endif %}>{{ depto }}</option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="table-responsive">
+                        <table class="table table-hover align-middle border mb-0">
+                            <thead class="table-light">
+                                <tr class="small text-secondary">
+                                    <th># Prioridad</th>
+                                    <th>Municipio</th>
+                                    <th>Cultivo</th>
+                                    <th>Temporada</th>
+                                    <th>Área Sembrada</th>
+                                    <th>Riesgo Predicho</th>
+                                    <th>Nivel</th>
+                                    <th>Pérdida Real (EVA)</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tbodyExtensionista">
+                                <tr>
+                                    <td colspan="8" class="text-center py-4 text-muted">
+                                        <div class="spinner-border spinner-border-sm text-success me-2"></div> Cargando priorización departamental...
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Sección de Metodología y Proyecto -->
+        <section class="mt-5 pt-3">
+            <div class="card border-0 rounded-4 shadow-sm bg-white p-4">
+                <div class="row g-4 align-items-center">
+                    <div class="col-lg-8">
+                        <h5 class="fw-bold text-dark mb-2">Acerca del Proyecto AgroRiesgo IA</h5>
+                        <p class="text-muted small mb-2">
+                            Trabajo de implementación práctica de Aprendizaje Supervisado para la asignatura de <strong>Inteligencia Artificial</strong>. Resuelve el problema de la pérdida física de alimentos en el campo anticipando cuándo y dónde una siembra enfrenta un riesgo alto de perder el 20% o más de su área sembrada.
+                        </p>
+                        <div class="d-flex flex-wrap gap-2 pt-1">
+                            <span class="badge bg-light text-secondary border">Dataset: EVA MinAgricultura (datos.gov.co)</span>
+                            <span class="badge bg-light text-secondary border">116.314 Siembras Transitorias y Anuales</span>
+                            <span class="badge bg-light text-secondary border">Árbol de Decisión + Regresión Logística + Regresión Lineal</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 border-start-lg ps-lg-4">
+                        <h6 class="fw-bold text-dark small text-uppercase mb-2">Integrantes del Equipo</h6>
+                        <ul class="list-unstyled text-muted small mb-0">
+                            <li><i class="fa-solid fa-user-check text-success me-1"></i> Verona Andrés</li>
+                            <li><i class="fa-solid fa-user-check text-success me-1"></i> Vargas Dadier</li>
+                            <li><i class="fa-solid fa-user-check text-success me-1"></i> Ballesteros Carlos</li>
+                            <li><i class="fa-solid fa-user-check text-success me-1"></i> Miranda Deiver</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="agy-footer py-4 mt-5 text-center text-muted small border-top bg-white">
+        <div class="container">
+            <p class="mb-1">AgroRiesgo IA © 2026 — Inteligencia Artificial al Servicio del Campo Colombiano</p>
+            <p class="mb-0 text-black-50">Impacto ODS 2 (Hambre Cero) · ODS 12 (Producción y Consumo Responsables) · ODS 1 (Fin de la Pobreza)</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>

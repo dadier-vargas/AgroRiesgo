@@ -1,0 +1,4242 @@
+{
+  "AMAZONAS": [
+    {
+      "municipio": "PUERTO NARIÑO",
+      "cultivo": "ARROZ SECANO MANUAL",
+      "temporada": "B",
+      "area_sembrada": 32.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 12.5
+    },
+    {
+      "municipio": "PUERTO NARIÑO",
+      "cultivo": "AJI",
+      "temporada": "B",
+      "area_sembrada": 2.0,
+      "riesgo_pct": 80.8,
+      "nivel": "ALTO",
+      "perdida_real_pct": 50.0
+    },
+    {
+      "municipio": "LETICIA",
+      "cultivo": "ARROZ SECANO MANUAL",
+      "temporada": "B",
+      "area_sembrada": 30.0,
+      "riesgo_pct": 73.7,
+      "nivel": "ALTO",
+      "perdida_real_pct": 3.3
+    },
+    {
+      "municipio": "PUERTO NARIÑO",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "B",
+      "area_sembrada": 12.0,
+      "riesgo_pct": 53.1,
+      "nivel": "MEDIO",
+      "perdida_real_pct": 25.0
+    },
+    {
+      "municipio": "PUERTO NARIÑO",
+      "cultivo": "AJI",
+      "temporada": "A",
+      "area_sembrada": 2.0,
+      "riesgo_pct": 49.7,
+      "nivel": "BAJO",
+      "perdida_real_pct": 50.0
+    },
+    {
+      "municipio": "PUERTO NARIÑO",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "A",
+      "area_sembrada": 7.0,
+      "riesgo_pct": 49.7,
+      "nivel": "BAJO",
+      "perdida_real_pct": 14.3
+    },
+    {
+      "municipio": "PUERTO NARIÑO",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 702.0,
+      "riesgo_pct": 49.7,
+      "nivel": "BAJO",
+      "perdida_real_pct": 5.7
+    },
+    {
+      "municipio": "LETICIA",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "B",
+      "area_sembrada": 50.0,
+      "riesgo_pct": 33.9,
+      "nivel": "BAJO",
+      "perdida_real_pct": 14.0
+    },
+    {
+      "municipio": "PUERTO NARIÑO",
+      "cultivo": "FRIJOL",
+      "temporada": "B",
+      "area_sembrada": 4.0,
+      "riesgo_pct": 28.4,
+      "nivel": "BAJO",
+      "perdida_real_pct": 25.0
+    },
+    {
+      "municipio": "LETICIA",
+      "cultivo": "CILANTRO",
+      "temporada": "A",
+      "area_sembrada": 1.0,
+      "riesgo_pct": 24.2,
+      "nivel": "BAJO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "PUERTO NARIÑO",
+      "cultivo": "PIMENTON",
+      "temporada": "B",
+      "area_sembrada": 2.0,
+      "riesgo_pct": 20.7,
+      "nivel": "BAJO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "PUERTO NARIÑO",
+      "cultivo": "FRIJOL",
+      "temporada": "A",
+      "area_sembrada": 1.0,
+      "riesgo_pct": 8.4,
+      "nivel": "BAJO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "LETICIA",
+      "cultivo": "PEPINO COHOMBRO",
+      "temporada": "A",
+      "area_sembrada": 1.0,
+      "riesgo_pct": 8.4,
+      "nivel": "BAJO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "LETICIA",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 976.0,
+      "riesgo_pct": 0.0,
+      "nivel": "BAJO",
+      "perdida_real_pct": 5.8
+    }
+  ],
+  "ANTIOQUIA": [
+    {
+      "municipio": "VALDIVIA",
+      "cultivo": "AJI",
+      "temporada": "B",
+      "area_sembrada": 11.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "SANTA ROSA DE OSOS",
+      "cultivo": "CILANTRO",
+      "temporada": "A",
+      "area_sembrada": 3.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 33.3
+    },
+    {
+      "municipio": "CONCORDIA",
+      "cultivo": "FRIJOL ARBUSTIVO",
+      "temporada": "A",
+      "area_sembrada": 120.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 16.7
+    },
+    {
+      "municipio": "PUEBLO RICO",
+      "cultivo": "FRIJOL ARBUSTIVO",
+      "temporada": "A",
+      "area_sembrada": 7.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "GOMEZ PLATA",
+      "cultivo": "FRIJOL ARBUSTIVO",
+      "temporada": "A",
+      "area_sembrada": 4.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 25.0
+    },
+    {
+      "municipio": "VEGACHI",
+      "cultivo": "FRIJOL ARBUSTIVO",
+      "temporada": "B",
+      "area_sembrada": 4.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "SANTA ROSA DE OSOS",
+      "cultivo": "HORTALIZAS VARIAS",
+      "temporada": "A",
+      "area_sembrada": 26.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "RETIRO",
+      "cultivo": "PAPA",
+      "temporada": "A",
+      "area_sembrada": 43.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 9.3
+    },
+    {
+      "municipio": "CARMEN DE VIBORAL",
+      "cultivo": "TOMATE INVERNADERO",
+      "temporada": "A",
+      "area_sembrada": 15.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 26.7
+    },
+    {
+      "municipio": "CARMEN DE VIBORAL",
+      "cultivo": "TOMATE INVERNADERO",
+      "temporada": "B",
+      "area_sembrada": 15.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 26.7
+    },
+    {
+      "municipio": "RETIRO",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 32.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 62.5
+    },
+    {
+      "municipio": "MURINDO",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 5.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "PEÑOL",
+      "cultivo": "ARVEJA",
+      "temporada": "B",
+      "area_sembrada": 24.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 12.5
+    },
+    {
+      "municipio": "SANTA ROSA DE OSOS",
+      "cultivo": "ARVEJA",
+      "temporada": "B",
+      "area_sembrada": 9.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 22.2
+    },
+    {
+      "municipio": "SANTA BARBARA",
+      "cultivo": "CILANTRO",
+      "temporada": "B",
+      "area_sembrada": 10.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 30.0
+    }
+  ],
+  "ARAUCA": [
+    {
+      "municipio": "PUERTO RONDON",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 56.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "PUERTO RONDON",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "B",
+      "area_sembrada": 100.0,
+      "riesgo_pct": 71.5,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "TAME",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 2000.0,
+      "riesgo_pct": 53.1,
+      "nivel": "MEDIO",
+      "perdida_real_pct": 5.0
+    },
+    {
+      "municipio": "SARAVENA",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 1200.0,
+      "riesgo_pct": 53.1,
+      "nivel": "MEDIO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "FORTUL",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 1500.0,
+      "riesgo_pct": 49.7,
+      "nivel": "BAJO",
+      "perdida_real_pct": 18.0
+    },
+    {
+      "municipio": "ARAUCA",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 490.0,
+      "riesgo_pct": 49.7,
+      "nivel": "BAJO",
+      "perdida_real_pct": 14.9
+    },
+    {
+      "municipio": "CRAVO NORTE",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 120.0,
+      "riesgo_pct": 49.7,
+      "nivel": "BAJO",
+      "perdida_real_pct": 4.2
+    },
+    {
+      "municipio": "ARAUQUITA",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 2600.0,
+      "riesgo_pct": 39.7,
+      "nivel": "BAJO",
+      "perdida_real_pct": 15.0
+    },
+    {
+      "municipio": "CRAVO NORTE",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "B",
+      "area_sembrada": 40.0,
+      "riesgo_pct": 33.9,
+      "nivel": "BAJO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "CRAVO NORTE",
+      "cultivo": "PATILLA",
+      "temporada": "B",
+      "area_sembrada": 20.0,
+      "riesgo_pct": 33.9,
+      "nivel": "BAJO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "ARAUCA",
+      "cultivo": "ARROZ SECANO MECANIZADO",
+      "temporada": "A",
+      "area_sembrada": 9537.0,
+      "riesgo_pct": 32.0,
+      "nivel": "BAJO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "SARAVENA",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "A",
+      "area_sembrada": 1000.0,
+      "riesgo_pct": 32.0,
+      "nivel": "BAJO",
+      "perdida_real_pct": 2.0
+    },
+    {
+      "municipio": "ARAUQUITA",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "B",
+      "area_sembrada": 1600.0,
+      "riesgo_pct": 31.9,
+      "nivel": "BAJO",
+      "perdida_real_pct": 1.2
+    },
+    {
+      "municipio": "ARAUCA",
+      "cultivo": "ARROZ SECANO MECANIZADO",
+      "temporada": "B",
+      "area_sembrada": 1211.0,
+      "riesgo_pct": 20.7,
+      "nivel": "BAJO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "SARAVENA",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "B",
+      "area_sembrada": 1050.0,
+      "riesgo_pct": 20.7,
+      "nivel": "BAJO",
+      "perdida_real_pct": 0.0
+    }
+  ],
+  "ATLANTICO": [
+    {
+      "municipio": "BARANOA",
+      "cultivo": "AHUYAMA",
+      "temporada": "A",
+      "area_sembrada": 45.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 33.3
+    },
+    {
+      "municipio": "CAMPO DE LA CRUZ",
+      "cultivo": "AHUYAMA",
+      "temporada": "A",
+      "area_sembrada": 15.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 20.0
+    },
+    {
+      "municipio": "CAMPO DE LA CRUZ",
+      "cultivo": "AHUYAMA",
+      "temporada": "B",
+      "area_sembrada": 15.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "PIOJO",
+      "cultivo": "AHUYAMA",
+      "temporada": "B",
+      "area_sembrada": 4.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "BARANOA",
+      "cultivo": "AJI",
+      "temporada": "A",
+      "area_sembrada": 9.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 33.3
+    },
+    {
+      "municipio": "BARANOA",
+      "cultivo": "FRIJOL",
+      "temporada": "A",
+      "area_sembrada": 60.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 41.7
+    },
+    {
+      "municipio": "MALAMBO",
+      "cultivo": "FRIJOL",
+      "temporada": "A",
+      "area_sembrada": 20.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 25.0
+    },
+    {
+      "municipio": "MALAMBO",
+      "cultivo": "FRIJOL",
+      "temporada": "B",
+      "area_sembrada": 50.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 20.0
+    },
+    {
+      "municipio": "POLONUEVO",
+      "cultivo": "FRIJOL",
+      "temporada": "B",
+      "area_sembrada": 15.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "PONEDERA",
+      "cultivo": "FRIJOL ARBUSTIVO",
+      "temporada": "B",
+      "area_sembrada": 50.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 40.0
+    },
+    {
+      "municipio": "MALAMBO",
+      "cultivo": "GUANDUL",
+      "temporada": "Anual",
+      "area_sembrada": 180.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 60.0
+    },
+    {
+      "municipio": "BARANOA",
+      "cultivo": "GUANDUL",
+      "temporada": "Anual",
+      "area_sembrada": 125.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 32.0
+    },
+    {
+      "municipio": "GALAPA",
+      "cultivo": "GUANDUL",
+      "temporada": "Anual",
+      "area_sembrada": 50.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 20.0
+    },
+    {
+      "municipio": "PALMAR DE VARELA",
+      "cultivo": "GUANDUL",
+      "temporada": "Anual",
+      "area_sembrada": 50.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "SANTO TOMAS",
+      "cultivo": "GUANDUL",
+      "temporada": "Anual",
+      "area_sembrada": 32.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 53.1
+    }
+  ],
+  "BOLIVAR": [
+    {
+      "municipio": "SAN ESTANISLAO",
+      "cultivo": "AHUYAMA",
+      "temporada": "A",
+      "area_sembrada": 50.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 20.0
+    },
+    {
+      "municipio": "ACHI",
+      "cultivo": "AHUYAMA",
+      "temporada": "A",
+      "area_sembrada": 20.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "EL PEÑON",
+      "cultivo": "AHUYAMA",
+      "temporada": "B",
+      "area_sembrada": 15.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "SANTA ROSA",
+      "cultivo": "AJI DULCE",
+      "temporada": "B",
+      "area_sembrada": 20.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 50.0
+    },
+    {
+      "municipio": "SAN MARTIN DE LOBA",
+      "cultivo": "ARROZ SECANO MANUAL",
+      "temporada": "B",
+      "area_sembrada": 50.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 60.0
+    },
+    {
+      "municipio": "SANTA ROSA",
+      "cultivo": "BERENJENA",
+      "temporada": "A",
+      "area_sembrada": 15.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 33.3
+    },
+    {
+      "municipio": "SANTA ROSA",
+      "cultivo": "BERENJENA",
+      "temporada": "B",
+      "area_sembrada": 8.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 62.5
+    },
+    {
+      "municipio": "SAN ESTANISLAO",
+      "cultivo": "FRIJOL",
+      "temporada": "A",
+      "area_sembrada": 25.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 48.0
+    },
+    {
+      "municipio": "SANTA CATALINA",
+      "cultivo": "FRIJOL",
+      "temporada": "A",
+      "area_sembrada": 10.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 20.0
+    },
+    {
+      "municipio": "SOPLAVIENTO",
+      "cultivo": "FRIJOL",
+      "temporada": "A",
+      "area_sembrada": 5.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 60.0
+    },
+    {
+      "municipio": "SAN ESTANISLAO",
+      "cultivo": "FRIJOL",
+      "temporada": "B",
+      "area_sembrada": 100.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 10.0
+    },
+    {
+      "municipio": "CARTAGENA DE INDIAS",
+      "cultivo": "FRIJOL",
+      "temporada": "B",
+      "area_sembrada": 12.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 16.7
+    },
+    {
+      "municipio": "SANTA CATALINA",
+      "cultivo": "FRIJOL",
+      "temporada": "B",
+      "area_sembrada": 10.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "SOPLAVIENTO",
+      "cultivo": "FRIJOL",
+      "temporada": "B",
+      "area_sembrada": 5.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 40.0
+    },
+    {
+      "municipio": "EL GUAMO",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "A",
+      "area_sembrada": 1500.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 20.0
+    }
+  ],
+  "BOYACA": [
+    {
+      "municipio": "SATIVANORTE",
+      "cultivo": "AHUYAMA",
+      "temporada": "B",
+      "area_sembrada": 3.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 33.3
+    },
+    {
+      "municipio": "VENTAQUEMADA",
+      "cultivo": "ARRACACHA",
+      "temporada": "Anual",
+      "area_sembrada": 50.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "ALMEIDA",
+      "cultivo": "ARRACACHA",
+      "temporada": "Anual",
+      "area_sembrada": 10.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 50.0
+    },
+    {
+      "municipio": "OICATA",
+      "cultivo": "AVENA",
+      "temporada": "A",
+      "area_sembrada": 20.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 20.0
+    },
+    {
+      "municipio": "OICATA",
+      "cultivo": "AVENA",
+      "temporada": "B",
+      "area_sembrada": 25.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 20.0
+    },
+    {
+      "municipio": "NOBSA",
+      "cultivo": "BROCOLI",
+      "temporada": "A",
+      "area_sembrada": 25.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 16.0
+    },
+    {
+      "municipio": "BUSBANZA",
+      "cultivo": "FRIJOL",
+      "temporada": "A",
+      "area_sembrada": 50.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 40.0
+    },
+    {
+      "municipio": "CALDAS",
+      "cultivo": "FRIJOL",
+      "temporada": "A",
+      "area_sembrada": 40.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 12.5
+    },
+    {
+      "municipio": "MUZO",
+      "cultivo": "FRIJOL",
+      "temporada": "A",
+      "area_sembrada": 8.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "OICATA",
+      "cultivo": "LECHUGA",
+      "temporada": "B",
+      "area_sembrada": 6.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 33.3
+    },
+    {
+      "municipio": "TUTA",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "A",
+      "area_sembrada": 40.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 50.0
+    },
+    {
+      "municipio": "TUTA",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "B",
+      "area_sembrada": 20.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "CUCAITA",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "B",
+      "area_sembrada": 10.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 10.0
+    },
+    {
+      "municipio": "BUSBANZA",
+      "cultivo": "PAPA",
+      "temporada": "A",
+      "area_sembrada": 4.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 50.0
+    },
+    {
+      "municipio": "SIACHOQUE",
+      "cultivo": "QUINUA",
+      "temporada": "A",
+      "area_sembrada": 25.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    }
+  ],
+  "CALDAS": [
+    {
+      "municipio": "MANIZALES",
+      "cultivo": "PIMENTON",
+      "temporada": "B",
+      "area_sembrada": 21.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 9.5
+    },
+    {
+      "municipio": "LA DORADA",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 10.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 10.0
+    },
+    {
+      "municipio": "SAN JOSE",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 9.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 11.1
+    },
+    {
+      "municipio": "MANIZALES",
+      "cultivo": "ZANAHORIA",
+      "temporada": "A",
+      "area_sembrada": 30.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 23.3
+    },
+    {
+      "municipio": "MANIZALES",
+      "cultivo": "ZANAHORIA",
+      "temporada": "B",
+      "area_sembrada": 27.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 14.8
+    },
+    {
+      "municipio": "SALAMINA",
+      "cultivo": "FRIJOL",
+      "temporada": "B",
+      "area_sembrada": 10.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 30.0
+    },
+    {
+      "municipio": "MANIZALES",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "B",
+      "area_sembrada": 9.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 22.2
+    },
+    {
+      "municipio": "MARULANDA",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "B",
+      "area_sembrada": 6.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 50.0
+    },
+    {
+      "municipio": "SALAMINA",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "B",
+      "area_sembrada": 6.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 33.3
+    },
+    {
+      "municipio": "SAN JOSE",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "B",
+      "area_sembrada": 5.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "SALAMINA",
+      "cultivo": "TOMATE",
+      "temporada": "B",
+      "area_sembrada": 5.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 20.0
+    },
+    {
+      "municipio": "ANSERMA",
+      "cultivo": "TOMATE INVERNADERO",
+      "temporada": "B",
+      "area_sembrada": 13.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 7.7
+    },
+    {
+      "municipio": "VILLAMARIA",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 7.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 28.6
+    },
+    {
+      "municipio": "LA DORADA",
+      "cultivo": "PATILLA",
+      "temporada": "B",
+      "area_sembrada": 5.0,
+      "riesgo_pct": 84.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "MANIZALES",
+      "cultivo": "REPOLLO",
+      "temporada": "B",
+      "area_sembrada": 8.0,
+      "riesgo_pct": 84.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 12.5
+    }
+  ],
+  "CAQUETA": [
+    {
+      "municipio": "CURILLO",
+      "cultivo": "AHUYAMA",
+      "temporada": "B",
+      "area_sembrada": 4.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 50.0
+    },
+    {
+      "municipio": "CURILLO",
+      "cultivo": "PATILLA",
+      "temporada": "B",
+      "area_sembrada": 53.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 66.0
+    },
+    {
+      "municipio": "SOLANO",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 300.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 50.0
+    },
+    {
+      "municipio": "CURILLO",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 174.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 42.5
+    },
+    {
+      "municipio": "CARTAGENA DEL CHAIRA",
+      "cultivo": "ARROZ SECANO MANUAL",
+      "temporada": "B",
+      "area_sembrada": 300.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 33.3
+    },
+    {
+      "municipio": "ALBANIA",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "B",
+      "area_sembrada": 200.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 20.0
+    },
+    {
+      "municipio": "MONTAÑITA",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 250.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 12.0
+    },
+    {
+      "municipio": "MORELIA",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 40.0,
+      "riesgo_pct": 81.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 82.5
+    },
+    {
+      "municipio": "CURILLO",
+      "cultivo": "CILANTRO",
+      "temporada": "B",
+      "area_sembrada": 2.0,
+      "riesgo_pct": 80.8,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "CURILLO",
+      "cultivo": "TOMATE",
+      "temporada": "B",
+      "area_sembrada": 2.0,
+      "riesgo_pct": 80.8,
+      "nivel": "ALTO",
+      "perdida_real_pct": 50.0
+    },
+    {
+      "municipio": "ALBANIA",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "A",
+      "area_sembrada": 300.0,
+      "riesgo_pct": 79.7,
+      "nivel": "ALTO",
+      "perdida_real_pct": 33.3
+    },
+    {
+      "municipio": "SOLANO",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "A",
+      "area_sembrada": 230.0,
+      "riesgo_pct": 79.7,
+      "nivel": "ALTO",
+      "perdida_real_pct": 13.0
+    },
+    {
+      "municipio": "MORELIA",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "A",
+      "area_sembrada": 4.0,
+      "riesgo_pct": 76.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "SOLANO",
+      "cultivo": "ARROZ SECANO MANUAL",
+      "temporada": "A",
+      "area_sembrada": 140.0,
+      "riesgo_pct": 73.7,
+      "nivel": "ALTO",
+      "perdida_real_pct": 7.1
+    },
+    {
+      "municipio": "SAN JOSE DEL FRAGUA",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "A",
+      "area_sembrada": 86.0,
+      "riesgo_pct": 73.7,
+      "nivel": "ALTO",
+      "perdida_real_pct": 12.8
+    }
+  ],
+  "CASANARE": [
+    {
+      "municipio": "YOPAL",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "B",
+      "area_sembrada": 260.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "SACAMA",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 3.0,
+      "riesgo_pct": 81.5,
+      "nivel": "ALTO",
+      "perdida_real_pct": 66.7
+    },
+    {
+      "municipio": "YOPAL",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "A",
+      "area_sembrada": 260.0,
+      "riesgo_pct": 79.7,
+      "nivel": "ALTO",
+      "perdida_real_pct": 25.8
+    },
+    {
+      "municipio": "YOPAL",
+      "cultivo": "AHUYAMA",
+      "temporada": "A",
+      "area_sembrada": 15.0,
+      "riesgo_pct": 76.8,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "LA SALINA",
+      "cultivo": "FRIJOL",
+      "temporada": "A",
+      "area_sembrada": 16.0,
+      "riesgo_pct": 76.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 37.5
+    },
+    {
+      "municipio": "PORE",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "B",
+      "area_sembrada": 90.0,
+      "riesgo_pct": 71.5,
+      "nivel": "ALTO",
+      "perdida_real_pct": 5.6
+    },
+    {
+      "municipio": "TAMARA",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 50.0,
+      "riesgo_pct": 71.5,
+      "nivel": "ALTO",
+      "perdida_real_pct": 10.0
+    },
+    {
+      "municipio": "PORE",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 38.0,
+      "riesgo_pct": 71.5,
+      "nivel": "ALTO",
+      "perdida_real_pct": 7.9
+    },
+    {
+      "municipio": "SABANALARGA",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 35.0,
+      "riesgo_pct": 71.5,
+      "nivel": "ALTO",
+      "perdida_real_pct": 48.6
+    },
+    {
+      "municipio": "CHAMEZA",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 20.0,
+      "riesgo_pct": 71.5,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "LA SALINA",
+      "cultivo": "MALANGA",
+      "temporada": "Anual",
+      "area_sembrada": 6.0,
+      "riesgo_pct": 69.1,
+      "nivel": "MEDIO",
+      "perdida_real_pct": 16.7
+    },
+    {
+      "municipio": "MONTERREY",
+      "cultivo": "ÑAME",
+      "temporada": "Anual",
+      "area_sembrada": 2.0,
+      "riesgo_pct": 58.0,
+      "nivel": "MEDIO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "MONTERREY",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 200.0,
+      "riesgo_pct": 56.5,
+      "nivel": "MEDIO",
+      "perdida_real_pct": 10.0
+    },
+    {
+      "municipio": "NUNCHIA",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 150.0,
+      "riesgo_pct": 56.5,
+      "nivel": "MEDIO",
+      "perdida_real_pct": 26.7
+    },
+    {
+      "municipio": "TAURAMENA",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 50.0,
+      "riesgo_pct": 56.5,
+      "nivel": "MEDIO",
+      "perdida_real_pct": 0.0
+    }
+  ],
+  "CAUCA": [
+    {
+      "municipio": "MERCADERES",
+      "cultivo": "AHUYAMA",
+      "temporada": "B",
+      "area_sembrada": 61.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 32.8
+    },
+    {
+      "municipio": "TIMBIO",
+      "cultivo": "ARVEJA",
+      "temporada": "A",
+      "area_sembrada": 11.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 36.4
+    },
+    {
+      "municipio": "TIMBIO",
+      "cultivo": "ARVEJA",
+      "temporada": "B",
+      "area_sembrada": 17.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "EL TAMBO",
+      "cultivo": "CILANTRO",
+      "temporada": "A",
+      "area_sembrada": 5.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 40.0
+    },
+    {
+      "municipio": "EL TAMBO",
+      "cultivo": "CILANTRO",
+      "temporada": "B",
+      "area_sembrada": 5.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 40.0
+    },
+    {
+      "municipio": "MERCADERES",
+      "cultivo": "FRIJOL",
+      "temporada": "B",
+      "area_sembrada": 345.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 1.4
+    },
+    {
+      "municipio": "TIMBIO",
+      "cultivo": "FRIJOL",
+      "temporada": "B",
+      "area_sembrada": 174.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 10.3
+    },
+    {
+      "municipio": "EL TAMBO",
+      "cultivo": "HABICHUELA",
+      "temporada": "A",
+      "area_sembrada": 40.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 50.0
+    },
+    {
+      "municipio": "POPAYAN",
+      "cultivo": "HABICHUELA",
+      "temporada": "A",
+      "area_sembrada": 3.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "ROSAS",
+      "cultivo": "HABICHUELA",
+      "temporada": "A",
+      "area_sembrada": 3.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 33.3
+    },
+    {
+      "municipio": "EL TAMBO",
+      "cultivo": "HABICHUELA",
+      "temporada": "B",
+      "area_sembrada": 40.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 50.0
+    },
+    {
+      "municipio": "ROSAS",
+      "cultivo": "HABICHUELA",
+      "temporada": "B",
+      "area_sembrada": 4.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "FLORENCIA",
+      "cultivo": "HORTALIZAS VARIAS",
+      "temporada": "A",
+      "area_sembrada": 6.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "POPAYAN",
+      "cultivo": "HORTALIZAS VARIAS",
+      "temporada": "A",
+      "area_sembrada": 3.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 33.3
+    },
+    {
+      "municipio": "POPAYAN",
+      "cultivo": "HORTALIZAS VARIAS",
+      "temporada": "B",
+      "area_sembrada": 10.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 60.0
+    }
+  ],
+  "CESAR": [
+    {
+      "municipio": "SAN DIEGO",
+      "cultivo": "AHUYAMA",
+      "temporada": "A",
+      "area_sembrada": 100.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 10.0
+    },
+    {
+      "municipio": "PUEBLO BELLO",
+      "cultivo": "AHUYAMA",
+      "temporada": "A",
+      "area_sembrada": 73.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 4.1
+    },
+    {
+      "municipio": "ASTREA",
+      "cultivo": "AHUYAMA",
+      "temporada": "A",
+      "area_sembrada": 50.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 10.0
+    },
+    {
+      "municipio": "PELAYA",
+      "cultivo": "AHUYAMA",
+      "temporada": "A",
+      "area_sembrada": 50.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 8.0
+    },
+    {
+      "municipio": "BOSCONIA",
+      "cultivo": "AHUYAMA",
+      "temporada": "A",
+      "area_sembrada": 20.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 10.0
+    },
+    {
+      "municipio": "LA PAZ",
+      "cultivo": "AJI",
+      "temporada": "B",
+      "area_sembrada": 80.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 18.8
+    },
+    {
+      "municipio": "RIO DE ORO",
+      "cultivo": "ARRACACHA",
+      "temporada": "Anual",
+      "area_sembrada": 15.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "RIO DE ORO",
+      "cultivo": "CEBOLLA DE RAMA",
+      "temporada": "A",
+      "area_sembrada": 250.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 4.0
+    },
+    {
+      "municipio": "RIO DE ORO",
+      "cultivo": "CILANTRO",
+      "temporada": "A",
+      "area_sembrada": 30.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "TAMALAMEQUE",
+      "cultivo": "FRIJOL",
+      "temporada": "A",
+      "area_sembrada": 80.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 12.5
+    },
+    {
+      "municipio": "PELAYA",
+      "cultivo": "FRIJOL",
+      "temporada": "A",
+      "area_sembrada": 40.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 5.0
+    },
+    {
+      "municipio": "BOSCONIA",
+      "cultivo": "FRIJOL",
+      "temporada": "A",
+      "area_sembrada": 20.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 10.0
+    },
+    {
+      "municipio": "SAN DIEGO",
+      "cultivo": "MAIZ TECNIFICADO",
+      "temporada": "A",
+      "area_sembrada": 320.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 6.2
+    },
+    {
+      "municipio": "ASTREA",
+      "cultivo": "MAIZ TECNIFICADO",
+      "temporada": "A",
+      "area_sembrada": 300.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 10.0
+    },
+    {
+      "municipio": "AGUSTIN CODAZZI",
+      "cultivo": "MALANGA",
+      "temporada": "Anual",
+      "area_sembrada": 92.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 21.7
+    }
+  ],
+  "CHOCO": [
+    {
+      "municipio": "BAGADO",
+      "cultivo": "ÑAME",
+      "temporada": "Anual",
+      "area_sembrada": 5.0,
+      "riesgo_pct": 84.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 20.0
+    },
+    {
+      "municipio": "CERTEGUI",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "B",
+      "area_sembrada": 4.0,
+      "riesgo_pct": 81.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 25.0
+    },
+    {
+      "municipio": "ALTO BAUDO",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 15.0,
+      "riesgo_pct": 81.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 46.7
+    },
+    {
+      "municipio": "RIO QUITO",
+      "cultivo": "ACHIOTE (BIJA)",
+      "temporada": "Anual",
+      "area_sembrada": 320.0,
+      "riesgo_pct": 76.8,
+      "nivel": "ALTO",
+      "perdida_real_pct": 38.4
+    },
+    {
+      "municipio": "CARMEN DEL ATRATO",
+      "cultivo": "CILANTRO",
+      "temporada": "B",
+      "area_sembrada": 7.0,
+      "riesgo_pct": 73.7,
+      "nivel": "ALTO",
+      "perdida_real_pct": 14.3
+    },
+    {
+      "municipio": "BAGADO",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "B",
+      "area_sembrada": 56.0,
+      "riesgo_pct": 71.5,
+      "nivel": "ALTO",
+      "perdida_real_pct": 17.9
+    },
+    {
+      "municipio": "CARMEN DEL ATRATO",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "B",
+      "area_sembrada": 25.0,
+      "riesgo_pct": 71.5,
+      "nivel": "ALTO",
+      "perdida_real_pct": 20.0
+    },
+    {
+      "municipio": "CERTEGUI",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 16.0,
+      "riesgo_pct": 71.5,
+      "nivel": "ALTO",
+      "perdida_real_pct": 31.2
+    },
+    {
+      "municipio": "ALTO BAUDO",
+      "cultivo": "ARROZ SECANO MANUAL",
+      "temporada": "A",
+      "area_sembrada": 400.0,
+      "riesgo_pct": 68.1,
+      "nivel": "MEDIO",
+      "perdida_real_pct": 5.0
+    },
+    {
+      "municipio": "ALTO BAUDO",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "A",
+      "area_sembrada": 500.0,
+      "riesgo_pct": 68.1,
+      "nivel": "MEDIO",
+      "perdida_real_pct": 4.0
+    },
+    {
+      "municipio": "NUQUI",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "A",
+      "area_sembrada": 78.0,
+      "riesgo_pct": 68.1,
+      "nivel": "MEDIO",
+      "perdida_real_pct": 59.0
+    },
+    {
+      "municipio": "CERTEGUI",
+      "cultivo": "ARROZ SECANO MANUAL",
+      "temporada": "B",
+      "area_sembrada": 2.0,
+      "riesgo_pct": 67.5,
+      "nivel": "MEDIO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "CARMEN DEL ATRATO",
+      "cultivo": "PAPA",
+      "temporada": "A",
+      "area_sembrada": 2.0,
+      "riesgo_pct": 63.0,
+      "nivel": "MEDIO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "NOVITA",
+      "cultivo": "ACHIN",
+      "temporada": "Anual",
+      "area_sembrada": 50.0,
+      "riesgo_pct": 60.5,
+      "nivel": "MEDIO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "NOVITA",
+      "cultivo": "ÑAME",
+      "temporada": "Anual",
+      "area_sembrada": 90.0,
+      "riesgo_pct": 60.5,
+      "nivel": "MEDIO",
+      "perdida_real_pct": 0.0
+    }
+  ],
+  "CORDOBA": [
+    {
+      "municipio": "PURISIMA",
+      "cultivo": "AJI",
+      "temporada": "B",
+      "area_sembrada": 66.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 6.1
+    },
+    {
+      "municipio": "COTORRA",
+      "cultivo": "AJI DULCE",
+      "temporada": "A",
+      "area_sembrada": 18.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "MOMIL",
+      "cultivo": "AJI TABASCO",
+      "temporada": "A",
+      "area_sembrada": 40.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "TUCHIN",
+      "cultivo": "BATATA",
+      "temporada": "A",
+      "area_sembrada": 5.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 20.0
+    },
+    {
+      "municipio": "VALENCIA",
+      "cultivo": "ÑAME",
+      "temporada": "Anual",
+      "area_sembrada": 50.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "CERETE",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 350.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 71.4
+    },
+    {
+      "municipio": "BUENAVISTA",
+      "cultivo": "YUCA INDUSTRIAL",
+      "temporada": "Anual",
+      "area_sembrada": 225.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 20.0
+    },
+    {
+      "municipio": "MONTELIBANO",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "B",
+      "area_sembrada": 200.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 25.0
+    },
+    {
+      "municipio": "TUCHIN",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "B",
+      "area_sembrada": 100.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 20.0
+    },
+    {
+      "municipio": "MOMIL",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "B",
+      "area_sembrada": 47.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 4.3
+    },
+    {
+      "municipio": "CERETE",
+      "cultivo": "ÑAME",
+      "temporada": "Anual",
+      "area_sembrada": 10.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 50.0
+    },
+    {
+      "municipio": "CHIMA",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 45.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 44.4
+    },
+    {
+      "municipio": "LA APARTADA",
+      "cultivo": "ÑAME",
+      "temporada": "Anual",
+      "area_sembrada": 7.0,
+      "riesgo_pct": 84.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 28.6
+    },
+    {
+      "municipio": "COTORRA",
+      "cultivo": "FRIJOL",
+      "temporada": "B",
+      "area_sembrada": 15.0,
+      "riesgo_pct": 81.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "TUCHIN",
+      "cultivo": "ÑAME",
+      "temporada": "Anual",
+      "area_sembrada": 200.0,
+      "riesgo_pct": 81.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 10.0
+    }
+  ],
+  "CUNDINAMARCA": [
+    {
+      "municipio": "CAJICA",
+      "cultivo": "ACELGA",
+      "temporada": "A",
+      "area_sembrada": 4.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 25.0
+    },
+    {
+      "municipio": "CAJICA",
+      "cultivo": "ACELGA",
+      "temporada": "B",
+      "area_sembrada": 4.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 25.0
+    },
+    {
+      "municipio": "VILLETA",
+      "cultivo": "ARRACACHA",
+      "temporada": "Anual",
+      "area_sembrada": 15.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "TENA",
+      "cultivo": "ARRACACHA",
+      "temporada": "Anual",
+      "area_sembrada": 3.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "BITUIMA",
+      "cultivo": "ARVEJA",
+      "temporada": "A",
+      "area_sembrada": 5.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 20.0
+    },
+    {
+      "municipio": "TENJO",
+      "cultivo": "ARVEJA",
+      "temporada": "B",
+      "area_sembrada": 50.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "BITUIMA",
+      "cultivo": "ARVEJA",
+      "temporada": "B",
+      "area_sembrada": 6.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 16.7
+    },
+    {
+      "municipio": "BOJACA",
+      "cultivo": "CALABAZA",
+      "temporada": "A",
+      "area_sembrada": 40.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 12.5
+    },
+    {
+      "municipio": "QUEBRADANEGRA",
+      "cultivo": "FRIJOL",
+      "temporada": "A",
+      "area_sembrada": 10.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 20.0
+    },
+    {
+      "municipio": "QUEBRADANEGRA",
+      "cultivo": "FRIJOL",
+      "temporada": "B",
+      "area_sembrada": 20.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 50.0
+    },
+    {
+      "municipio": "YACOPI",
+      "cultivo": "FRIJOL",
+      "temporada": "B",
+      "area_sembrada": 8.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 37.5
+    },
+    {
+      "municipio": "GIRARDOT",
+      "cultivo": "MAIZ FORRAJERO",
+      "temporada": "B",
+      "area_sembrada": 30.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "SIMIJACA",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "A",
+      "area_sembrada": 510.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 41.2
+    },
+    {
+      "municipio": "SIBATE",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "A",
+      "area_sembrada": 32.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 53.1
+    },
+    {
+      "municipio": "BELTRAN",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "A",
+      "area_sembrada": 5.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 20.0
+    }
+  ],
+  "GUAINIA": [
+    {
+      "municipio": "INIRIDA",
+      "cultivo": "AJI",
+      "temporada": "A",
+      "area_sembrada": 15.0,
+      "riesgo_pct": 76.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "BARRANCO MINA",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 712.0,
+      "riesgo_pct": 60.5,
+      "nivel": "MEDIO",
+      "perdida_real_pct": 1.8
+    },
+    {
+      "municipio": "INIRIDA",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 464.0,
+      "riesgo_pct": 49.7,
+      "nivel": "BAJO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "CACAHUAL",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 202.0,
+      "riesgo_pct": 49.7,
+      "nivel": "BAJO",
+      "perdida_real_pct": 1.0
+    },
+    {
+      "municipio": "SAN FELIPE",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 166.0,
+      "riesgo_pct": 49.7,
+      "nivel": "BAJO",
+      "perdida_real_pct": 9.6
+    },
+    {
+      "municipio": "MORICHAL",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 6.0,
+      "riesgo_pct": 49.7,
+      "nivel": "BAJO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "MORICHAL",
+      "cultivo": "YUCA INDUSTRIAL",
+      "temporada": "Anual",
+      "area_sembrada": 120.0,
+      "riesgo_pct": 49.7,
+      "nivel": "BAJO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "BARRANCO MINA",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "A",
+      "area_sembrada": 40.0,
+      "riesgo_pct": 37.4,
+      "nivel": "BAJO",
+      "perdida_real_pct": 5.0
+    },
+    {
+      "municipio": "BARRANCO MINA",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "B",
+      "area_sembrada": 30.0,
+      "riesgo_pct": 37.4,
+      "nivel": "BAJO",
+      "perdida_real_pct": 3.3
+    },
+    {
+      "municipio": "INIRIDA",
+      "cultivo": "AJI",
+      "temporada": "B",
+      "area_sembrada": 15.0,
+      "riesgo_pct": 33.9,
+      "nivel": "BAJO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "BARRANCO MINA",
+      "cultivo": "AJI",
+      "temporada": "A",
+      "area_sembrada": 5.0,
+      "riesgo_pct": 28.4,
+      "nivel": "BAJO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "BARRANCO MINA",
+      "cultivo": "AJI",
+      "temporada": "B",
+      "area_sembrada": 5.0,
+      "riesgo_pct": 28.4,
+      "nivel": "BAJO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "INIRIDA",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "A",
+      "area_sembrada": 14.0,
+      "riesgo_pct": 7.4,
+      "nivel": "BAJO",
+      "perdida_real_pct": 7.1
+    },
+    {
+      "municipio": "INIRIDA",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "B",
+      "area_sembrada": 140.0,
+      "riesgo_pct": 7.4,
+      "nivel": "BAJO",
+      "perdida_real_pct": 0.0
+    }
+  ],
+  "GUAVIARE": [
+    {
+      "municipio": "EL RETORNO",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 1570.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 40.0
+    },
+    {
+      "municipio": "SAN JOSE DEL GUAVIARE",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 1363.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 20.0
+    },
+    {
+      "municipio": "CALAMAR",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 707.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 40.0
+    },
+    {
+      "municipio": "MIRAFLORES",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 365.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 40.0
+    },
+    {
+      "municipio": "SAN JOSE DEL GUAVIARE",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "A",
+      "area_sembrada": 2257.0,
+      "riesgo_pct": 49.7,
+      "nivel": "BAJO",
+      "perdida_real_pct": 10.0
+    },
+    {
+      "municipio": "EL RETORNO",
+      "cultivo": "PATILLA",
+      "temporada": "A",
+      "area_sembrada": 70.0,
+      "riesgo_pct": 49.7,
+      "nivel": "BAJO",
+      "perdida_real_pct": 10.0
+    },
+    {
+      "municipio": "EL RETORNO",
+      "cultivo": "ARROZ SECANO MANUAL",
+      "temporada": "A",
+      "area_sembrada": 780.0,
+      "riesgo_pct": 37.4,
+      "nivel": "BAJO",
+      "perdida_real_pct": 10.0
+    },
+    {
+      "municipio": "SAN JOSE DEL GUAVIARE",
+      "cultivo": "ARROZ SECANO MANUAL",
+      "temporada": "A",
+      "area_sembrada": 1453.0,
+      "riesgo_pct": 32.0,
+      "nivel": "BAJO",
+      "perdida_real_pct": 10.0
+    },
+    {
+      "municipio": "CALAMAR",
+      "cultivo": "ARROZ SECANO MANUAL",
+      "temporada": "A",
+      "area_sembrada": 512.0,
+      "riesgo_pct": 32.0,
+      "nivel": "BAJO",
+      "perdida_real_pct": 10.2
+    },
+    {
+      "municipio": "MIRAFLORES",
+      "cultivo": "ARROZ SECANO MANUAL",
+      "temporada": "A",
+      "area_sembrada": 353.0,
+      "riesgo_pct": 32.0,
+      "nivel": "BAJO",
+      "perdida_real_pct": 9.9
+    },
+    {
+      "municipio": "SAN JOSE DEL GUAVIARE",
+      "cultivo": "ARROZ SECANO MECANIZADO",
+      "temporada": "A",
+      "area_sembrada": 985.0,
+      "riesgo_pct": 32.0,
+      "nivel": "BAJO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "EL RETORNO",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "A",
+      "area_sembrada": 1367.0,
+      "riesgo_pct": 32.0,
+      "nivel": "BAJO",
+      "perdida_real_pct": 10.0
+    },
+    {
+      "municipio": "CALAMAR",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "A",
+      "area_sembrada": 850.0,
+      "riesgo_pct": 32.0,
+      "nivel": "BAJO",
+      "perdida_real_pct": 10.0
+    },
+    {
+      "municipio": "MIRAFLORES",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "A",
+      "area_sembrada": 831.0,
+      "riesgo_pct": 32.0,
+      "nivel": "BAJO",
+      "perdida_real_pct": 10.0
+    },
+    {
+      "municipio": "SAN JOSE DEL GUAVIARE",
+      "cultivo": "ARROZ SECANO MECANIZADO",
+      "temporada": "B",
+      "area_sembrada": 146.0,
+      "riesgo_pct": 20.7,
+      "nivel": "BAJO",
+      "perdida_real_pct": 0.0
+    }
+  ],
+  "HUILA": [
+    {
+      "municipio": "TESALIA",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 27.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 7.4
+    },
+    {
+      "municipio": "SANTA MARIA",
+      "cultivo": "ARRACACHA",
+      "temporada": "Anual",
+      "area_sembrada": 8.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "TERUEL",
+      "cultivo": "ARRACACHA",
+      "temporada": "Anual",
+      "area_sembrada": 7.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 28.6
+    },
+    {
+      "municipio": "SUAZA",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 35.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 8.6
+    },
+    {
+      "municipio": "LA ARGENTINA",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 32.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 21.9
+    },
+    {
+      "municipio": "PITAL",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 22.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 27.3
+    },
+    {
+      "municipio": "VILLAVIEJA",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 4.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "ACEVEDO",
+      "cultivo": "AHUYAMA",
+      "temporada": "B",
+      "area_sembrada": 4.0,
+      "riesgo_pct": 84.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "ELIAS",
+      "cultivo": "ARRACACHA",
+      "temporada": "Anual",
+      "area_sembrada": 5.0,
+      "riesgo_pct": 84.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "TIMANA",
+      "cultivo": "ARRACACHA",
+      "temporada": "Anual",
+      "area_sembrada": 5.0,
+      "riesgo_pct": 84.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "GUADALUPE",
+      "cultivo": "ARVEJA",
+      "temporada": "B",
+      "area_sembrada": 8.0,
+      "riesgo_pct": 84.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "SUAZA",
+      "cultivo": "ARVEJA",
+      "temporada": "B",
+      "area_sembrada": 5.0,
+      "riesgo_pct": 84.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 40.0
+    },
+    {
+      "municipio": "TERUEL",
+      "cultivo": "ARVEJA",
+      "temporada": "B",
+      "area_sembrada": 4.0,
+      "riesgo_pct": 84.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "SUAZA",
+      "cultivo": "HABICHUELA",
+      "temporada": "B",
+      "area_sembrada": 8.0,
+      "riesgo_pct": 84.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 37.5
+    },
+    {
+      "municipio": "IQUIRA",
+      "cultivo": "HABICHUELA",
+      "temporada": "B",
+      "area_sembrada": 6.0,
+      "riesgo_pct": 84.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    }
+  ],
+  "LA GUAJIRA": [
+    {
+      "municipio": "SAN JUAN DEL CESAR",
+      "cultivo": "AHUYAMA",
+      "temporada": "A",
+      "area_sembrada": 163.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 23.9
+    },
+    {
+      "municipio": "DIBULLA",
+      "cultivo": "AHUYAMA",
+      "temporada": "A",
+      "area_sembrada": 68.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "BARRANCAS",
+      "cultivo": "AHUYAMA",
+      "temporada": "A",
+      "area_sembrada": 52.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 19.2
+    },
+    {
+      "municipio": "ALBANIA",
+      "cultivo": "AHUYAMA",
+      "temporada": "A",
+      "area_sembrada": 7.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "RIOHACHA",
+      "cultivo": "AHUYAMA",
+      "temporada": "B",
+      "area_sembrada": 357.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 14.6
+    },
+    {
+      "municipio": "SAN JUAN DEL CESAR",
+      "cultivo": "AHUYAMA",
+      "temporada": "B",
+      "area_sembrada": 207.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 7.7
+    },
+    {
+      "municipio": "URUMITA",
+      "cultivo": "AJI",
+      "temporada": "A",
+      "area_sembrada": 38.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 7.9
+    },
+    {
+      "municipio": "BARRANCAS",
+      "cultivo": "AJI",
+      "temporada": "A",
+      "area_sembrada": 28.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 32.1
+    },
+    {
+      "municipio": "FONSECA",
+      "cultivo": "AJI",
+      "temporada": "A",
+      "area_sembrada": 10.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 80.0
+    },
+    {
+      "municipio": "BARRANCAS",
+      "cultivo": "AJI",
+      "temporada": "B",
+      "area_sembrada": 46.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 26.1
+    },
+    {
+      "municipio": "FONSECA",
+      "cultivo": "AJI",
+      "temporada": "B",
+      "area_sembrada": 12.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 16.7
+    },
+    {
+      "municipio": "LA JAGUA DEL PILAR",
+      "cultivo": "AJI",
+      "temporada": "B",
+      "area_sembrada": 7.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 14.3
+    },
+    {
+      "municipio": "DIBULLA",
+      "cultivo": "AJI",
+      "temporada": "B",
+      "area_sembrada": 3.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "DIBULLA",
+      "cultivo": "FRIJOL",
+      "temporada": "A",
+      "area_sembrada": 114.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 7.0
+    },
+    {
+      "municipio": "BARRANCAS",
+      "cultivo": "FRIJOL",
+      "temporada": "A",
+      "area_sembrada": 59.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 20.3
+    }
+  ],
+  "MAGDALENA": [
+    {
+      "municipio": "CIENAGA",
+      "cultivo": "CILANTRO",
+      "temporada": "A",
+      "area_sembrada": 75.0,
+      "riesgo_pct": 94.1,
+      "nivel": "ALTO",
+      "perdida_real_pct": 20.0
+    },
+    {
+      "municipio": "FUNDACION",
+      "cultivo": "CILANTRO",
+      "temporada": "A",
+      "area_sembrada": 60.0,
+      "riesgo_pct": 94.1,
+      "nivel": "ALTO",
+      "perdida_real_pct": 33.3
+    },
+    {
+      "municipio": "EL RETEN",
+      "cultivo": "MELON",
+      "temporada": "A",
+      "area_sembrada": 30.0,
+      "riesgo_pct": 94.1,
+      "nivel": "ALTO",
+      "perdida_real_pct": 66.7
+    },
+    {
+      "municipio": "PUEBLO VIEJO",
+      "cultivo": "MELON",
+      "temporada": "B",
+      "area_sembrada": 50.0,
+      "riesgo_pct": 94.1,
+      "nivel": "ALTO",
+      "perdida_real_pct": 40.0
+    },
+    {
+      "municipio": "SABANAS DE SAN ANGEL",
+      "cultivo": "AHUYAMA",
+      "temporada": "B",
+      "area_sembrada": 110.0,
+      "riesgo_pct": 91.2,
+      "nivel": "ALTO",
+      "perdida_real_pct": 45.5
+    },
+    {
+      "municipio": "NUEVA GRANADA",
+      "cultivo": "AHUYAMA",
+      "temporada": "B",
+      "area_sembrada": 17.0,
+      "riesgo_pct": 91.2,
+      "nivel": "ALTO",
+      "perdida_real_pct": 41.2
+    },
+    {
+      "municipio": "SANTA MARTA",
+      "cultivo": "AJI",
+      "temporada": "A",
+      "area_sembrada": 70.0,
+      "riesgo_pct": 91.2,
+      "nivel": "ALTO",
+      "perdida_real_pct": 50.0
+    },
+    {
+      "municipio": "ALGARROBO",
+      "cultivo": "AJI",
+      "temporada": "A",
+      "area_sembrada": 25.0,
+      "riesgo_pct": 91.2,
+      "nivel": "ALTO",
+      "perdida_real_pct": 40.0
+    },
+    {
+      "municipio": "SANTA MARTA",
+      "cultivo": "AJI",
+      "temporada": "B",
+      "area_sembrada": 140.0,
+      "riesgo_pct": 91.2,
+      "nivel": "ALTO",
+      "perdida_real_pct": 50.0
+    },
+    {
+      "municipio": "CERRO DE SAN ANTONIO",
+      "cultivo": "AJI",
+      "temporada": "B",
+      "area_sembrada": 50.0,
+      "riesgo_pct": 91.2,
+      "nivel": "ALTO",
+      "perdida_real_pct": 30.0
+    },
+    {
+      "municipio": "SALAMINA",
+      "cultivo": "AJI",
+      "temporada": "B",
+      "area_sembrada": 35.0,
+      "riesgo_pct": 91.2,
+      "nivel": "ALTO",
+      "perdida_real_pct": 65.7
+    },
+    {
+      "municipio": "ALGARROBO",
+      "cultivo": "AJI",
+      "temporada": "B",
+      "area_sembrada": 30.0,
+      "riesgo_pct": 91.2,
+      "nivel": "ALTO",
+      "perdida_real_pct": 50.0
+    },
+    {
+      "municipio": "REMOLINO",
+      "cultivo": "AJI",
+      "temporada": "B",
+      "area_sembrada": 15.0,
+      "riesgo_pct": 91.2,
+      "nivel": "ALTO",
+      "perdida_real_pct": 26.7
+    },
+    {
+      "municipio": "PIVIJAY",
+      "cultivo": "AJONJOLI",
+      "temporada": "B",
+      "area_sembrada": 250.0,
+      "riesgo_pct": 91.2,
+      "nivel": "ALTO",
+      "perdida_real_pct": 20.0
+    },
+    {
+      "municipio": "SITIONUEVO",
+      "cultivo": "CILANTRO",
+      "temporada": "A",
+      "area_sembrada": 20.0,
+      "riesgo_pct": 91.2,
+      "nivel": "ALTO",
+      "perdida_real_pct": 50.0
+    }
+  ],
+  "META": [
+    {
+      "municipio": "LA URIBE",
+      "cultivo": "ARVEJA",
+      "temporada": "A",
+      "area_sembrada": 45.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "FUENTE DE ORO",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 2800.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 16.1
+    },
+    {
+      "municipio": "PUERTO CONCORDIA",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 500.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 20.0
+    },
+    {
+      "municipio": "EL CALVARIO",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 15.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "PUERTO LOPEZ",
+      "cultivo": "PATILLA",
+      "temporada": "A",
+      "area_sembrada": 93.0,
+      "riesgo_pct": 74.1,
+      "nivel": "ALTO",
+      "perdida_real_pct": 14.0
+    },
+    {
+      "municipio": "PUERTO LOPEZ",
+      "cultivo": "PATILLA",
+      "temporada": "B",
+      "area_sembrada": 192.0,
+      "riesgo_pct": 74.1,
+      "nivel": "ALTO",
+      "perdida_real_pct": 13.0
+    },
+    {
+      "municipio": "VILLAVICENCIO",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 208.0,
+      "riesgo_pct": 74.1,
+      "nivel": "ALTO",
+      "perdida_real_pct": 4.8
+    },
+    {
+      "municipio": "PUERTO LOPEZ",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 100.0,
+      "riesgo_pct": 74.1,
+      "nivel": "ALTO",
+      "perdida_real_pct": 20.0
+    },
+    {
+      "municipio": "GUAMAL",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "A",
+      "area_sembrada": 5.0,
+      "riesgo_pct": 62.8,
+      "nivel": "MEDIO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "PUERTO LLERAS",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 600.0,
+      "riesgo_pct": 56.5,
+      "nivel": "MEDIO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "RESTREPO",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 51.0,
+      "riesgo_pct": 56.5,
+      "nivel": "MEDIO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "BARRANCA DE UPIA",
+      "cultivo": "AHUYAMA",
+      "temporada": "A",
+      "area_sembrada": 10.0,
+      "riesgo_pct": 49.7,
+      "nivel": "BAJO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "LA URIBE",
+      "cultivo": "ARROZ SECANO MANUAL",
+      "temporada": "A",
+      "area_sembrada": 85.0,
+      "riesgo_pct": 49.7,
+      "nivel": "BAJO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "VISTA HERMOSA",
+      "cultivo": "PATILLA",
+      "temporada": "A",
+      "area_sembrada": 30.0,
+      "riesgo_pct": 49.7,
+      "nivel": "BAJO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "SAN JUANITO",
+      "cultivo": "SAGU",
+      "temporada": "Anual",
+      "area_sembrada": 65.0,
+      "riesgo_pct": 49.7,
+      "nivel": "BAJO",
+      "perdida_real_pct": 0.0
+    }
+  ],
+  "NARIÑO": [
+    {
+      "municipio": "TUQUERRES",
+      "cultivo": "ACELGA",
+      "temporada": "B",
+      "area_sembrada": 3.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "SAN LORENZO",
+      "cultivo": "ARRACACHA",
+      "temporada": "Anual",
+      "area_sembrada": 10.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 10.0
+    },
+    {
+      "municipio": "ROBERTO PAYAN",
+      "cultivo": "ARROZ SECANO MANUAL",
+      "temporada": "A",
+      "area_sembrada": 130.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 30.8
+    },
+    {
+      "municipio": "ROBERTO PAYAN",
+      "cultivo": "ARROZ SECANO MANUAL",
+      "temporada": "B",
+      "area_sembrada": 130.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 23.1
+    },
+    {
+      "municipio": "ALBAN",
+      "cultivo": "ARVEJA",
+      "temporada": "A",
+      "area_sembrada": 75.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 6.7
+    },
+    {
+      "municipio": "LA FLORIDA",
+      "cultivo": "ARVEJA",
+      "temporada": "A",
+      "area_sembrada": 5.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 40.0
+    },
+    {
+      "municipio": "LA FLORIDA",
+      "cultivo": "ARVEJA",
+      "temporada": "B",
+      "area_sembrada": 4.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 25.0
+    },
+    {
+      "municipio": "OLAYA HERRERA",
+      "cultivo": "CHILLANGUA",
+      "temporada": "B",
+      "area_sembrada": 8.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 37.5
+    },
+    {
+      "municipio": "SAN LORENZO",
+      "cultivo": "FRIJOL ARBUSTIVO",
+      "temporada": "A",
+      "area_sembrada": 45.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 22.2
+    },
+    {
+      "municipio": "ILES",
+      "cultivo": "FRIJOL ARBUSTIVO",
+      "temporada": "A",
+      "area_sembrada": 20.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "SAN PEDRO DE CARTAGO",
+      "cultivo": "FRIJOL ARBUSTIVO",
+      "temporada": "A",
+      "area_sembrada": 17.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 17.6
+    },
+    {
+      "municipio": "ARBOLEDA",
+      "cultivo": "FRIJOL ARBUSTIVO",
+      "temporada": "A",
+      "area_sembrada": 10.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 20.0
+    },
+    {
+      "municipio": "NARIÑO",
+      "cultivo": "FRIJOL ARBUSTIVO",
+      "temporada": "A",
+      "area_sembrada": 5.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "SAN LORENZO",
+      "cultivo": "FRIJOL ARBUSTIVO",
+      "temporada": "B",
+      "area_sembrada": 60.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 33.3
+    },
+    {
+      "municipio": "ARBOLEDA",
+      "cultivo": "FRIJOL ARBUSTIVO",
+      "temporada": "B",
+      "area_sembrada": 30.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 20.0
+    }
+  ],
+  "NORTE DE SANTANDER": [
+    {
+      "municipio": "DURANIA",
+      "cultivo": "PIMENTON",
+      "temporada": "A",
+      "area_sembrada": 2.0,
+      "riesgo_pct": 100.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 50.0
+    },
+    {
+      "municipio": "VILLA CARO",
+      "cultivo": "ARRACACHA",
+      "temporada": "Anual",
+      "area_sembrada": 12.0,
+      "riesgo_pct": 88.9,
+      "nivel": "ALTO",
+      "perdida_real_pct": 33.3
+    },
+    {
+      "municipio": "CUCUTILLA",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 25.0,
+      "riesgo_pct": 88.9,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "VILLA CARO",
+      "cultivo": "PIMENTON",
+      "temporada": "A",
+      "area_sembrada": 4.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "DURANIA",
+      "cultivo": "FRIJOL",
+      "temporada": "B",
+      "area_sembrada": 5.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "SARDINATA",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 1120.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.4
+    },
+    {
+      "municipio": "LABATECA",
+      "cultivo": "CEBOLLA DE BULBO",
+      "temporada": "B",
+      "area_sembrada": 8.0,
+      "riesgo_pct": 84.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "DURANIA",
+      "cultivo": "HABICHUELA",
+      "temporada": "B",
+      "area_sembrada": 5.0,
+      "riesgo_pct": 84.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 20.0
+    },
+    {
+      "municipio": "SARDINATA",
+      "cultivo": "FRIJOL",
+      "temporada": "B",
+      "area_sembrada": 2.0,
+      "riesgo_pct": 84.2,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "DURANIA",
+      "cultivo": "PIMENTON",
+      "temporada": "B",
+      "area_sembrada": 1.0,
+      "riesgo_pct": 80.8,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "DURANIA",
+      "cultivo": "FRIJOL",
+      "temporada": "A",
+      "area_sembrada": 5.0,
+      "riesgo_pct": 79.7,
+      "nivel": "ALTO",
+      "perdida_real_pct": 20.0
+    },
+    {
+      "municipio": "SARDINATA",
+      "cultivo": "FRIJOL",
+      "temporada": "A",
+      "area_sembrada": 4.0,
+      "riesgo_pct": 79.7,
+      "nivel": "ALTO",
+      "perdida_real_pct": 25.0
+    },
+    {
+      "municipio": "BUCARASICA",
+      "cultivo": "FRIJOL",
+      "temporada": "A",
+      "area_sembrada": 17.0,
+      "riesgo_pct": 76.8,
+      "nivel": "ALTO",
+      "perdida_real_pct": 11.8
+    },
+    {
+      "municipio": "LABATECA",
+      "cultivo": "ARVEJA",
+      "temporada": "B",
+      "area_sembrada": 18.0,
+      "riesgo_pct": 71.5,
+      "nivel": "ALTO",
+      "perdida_real_pct": 16.7
+    },
+    {
+      "municipio": "EL TARRA",
+      "cultivo": "FRIJOL",
+      "temporada": "B",
+      "area_sembrada": 15.0,
+      "riesgo_pct": 71.5,
+      "nivel": "ALTO",
+      "perdida_real_pct": 20.0
+    }
+  ],
+  "PUTUMAYO": [
+    {
+      "municipio": "VALLE DEL GUAMUEZ",
+      "cultivo": "ARROZ SECANO MANUAL",
+      "temporada": "A",
+      "area_sembrada": 60.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 8.3
+    },
+    {
+      "municipio": "PUERTO CAICEDO",
+      "cultivo": "YOTA",
+      "temporada": "Anual",
+      "area_sembrada": 4.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "VILLAGARZON",
+      "cultivo": "YOTA",
+      "temporada": "Anual",
+      "area_sembrada": 20.0,
+      "riesgo_pct": 81.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 15.0
+    },
+    {
+      "municipio": "VALLE DEL GUAMUEZ",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "A",
+      "area_sembrada": 152.0,
+      "riesgo_pct": 79.7,
+      "nivel": "ALTO",
+      "perdida_real_pct": 1.3
+    },
+    {
+      "municipio": "VILLAGARZON",
+      "cultivo": "ARROZ SECANO MANUAL",
+      "temporada": "A",
+      "area_sembrada": 60.0,
+      "riesgo_pct": 76.8,
+      "nivel": "ALTO",
+      "perdida_real_pct": 18.3
+    },
+    {
+      "municipio": "VILLAGARZON",
+      "cultivo": "ARROZ SECANO MANUAL",
+      "temporada": "B",
+      "area_sembrada": 6.0,
+      "riesgo_pct": 74.1,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "VILLAGARZON",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 63.0,
+      "riesgo_pct": 74.1,
+      "nivel": "ALTO",
+      "perdida_real_pct": 15.9
+    },
+    {
+      "municipio": "PUERTO ASIS",
+      "cultivo": "ARROZ SECANO MANUAL",
+      "temporada": "B",
+      "area_sembrada": 241.0,
+      "riesgo_pct": 73.7,
+      "nivel": "ALTO",
+      "perdida_real_pct": 10.0
+    },
+    {
+      "municipio": "ORITO",
+      "cultivo": "ARROZ SECANO MANUAL",
+      "temporada": "B",
+      "area_sembrada": 330.0,
+      "riesgo_pct": 71.5,
+      "nivel": "ALTO",
+      "perdida_real_pct": 20.0
+    },
+    {
+      "municipio": "COLON",
+      "cultivo": "FRIJOL",
+      "temporada": "B",
+      "area_sembrada": 200.0,
+      "riesgo_pct": 71.5,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "ORITO",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "B",
+      "area_sembrada": 450.0,
+      "riesgo_pct": 71.5,
+      "nivel": "ALTO",
+      "perdida_real_pct": 8.9
+    },
+    {
+      "municipio": "PUERTO LEGUIZAMO",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "B",
+      "area_sembrada": 150.0,
+      "riesgo_pct": 71.5,
+      "nivel": "ALTO",
+      "perdida_real_pct": 20.0
+    },
+    {
+      "municipio": "SAN MIGUEL",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "B",
+      "area_sembrada": 115.0,
+      "riesgo_pct": 71.5,
+      "nivel": "ALTO",
+      "perdida_real_pct": 18.3
+    },
+    {
+      "municipio": "PUERTO CAICEDO",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 22.0,
+      "riesgo_pct": 71.5,
+      "nivel": "ALTO",
+      "perdida_real_pct": 9.1
+    },
+    {
+      "municipio": "PUERTO LEGUIZAMO",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "A",
+      "area_sembrada": 600.0,
+      "riesgo_pct": 68.1,
+      "nivel": "MEDIO",
+      "perdida_real_pct": 33.3
+    }
+  ],
+  "QUINDIO": [
+    {
+      "municipio": "GENOVA",
+      "cultivo": "FRIJOL",
+      "temporada": "B",
+      "area_sembrada": 5.0,
+      "riesgo_pct": 84.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 40.0
+    },
+    {
+      "municipio": "GENOVA",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "B",
+      "area_sembrada": 5.0,
+      "riesgo_pct": 84.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 40.0
+    },
+    {
+      "municipio": "CORDOBA",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 5.0,
+      "riesgo_pct": 84.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "LA TEBAIDA",
+      "cultivo": "HORTALIZAS VARIAS",
+      "temporada": "A",
+      "area_sembrada": 6.0,
+      "riesgo_pct": 76.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "CIRCASIA",
+      "cultivo": "FRIJOL",
+      "temporada": "B",
+      "area_sembrada": 38.0,
+      "riesgo_pct": 71.5,
+      "nivel": "ALTO",
+      "perdida_real_pct": 7.9
+    },
+    {
+      "municipio": "QUIMBAYA",
+      "cultivo": "PIMENTON",
+      "temporada": "A",
+      "area_sembrada": 2.0,
+      "riesgo_pct": 68.9,
+      "nivel": "MEDIO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "QUIMBAYA",
+      "cultivo": "CEBOLLA DE RAMA",
+      "temporada": "A",
+      "area_sembrada": 2.0,
+      "riesgo_pct": 63.0,
+      "nivel": "MEDIO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "CIRCASIA",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 13.0,
+      "riesgo_pct": 59.3,
+      "nivel": "MEDIO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "QUIMBAYA",
+      "cultivo": "JENGIBRE",
+      "temporada": "Anual",
+      "area_sembrada": 5.0,
+      "riesgo_pct": 49.8,
+      "nivel": "BAJO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "CIRCASIA",
+      "cultivo": "ARVEJA",
+      "temporada": "A",
+      "area_sembrada": 5.0,
+      "riesgo_pct": 49.7,
+      "nivel": "BAJO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "FILANDIA",
+      "cultivo": "FLORES Y FOLLAJES",
+      "temporada": "A",
+      "area_sembrada": 4.0,
+      "riesgo_pct": 49.7,
+      "nivel": "BAJO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "QUIMBAYA",
+      "cultivo": "HABICHUELA",
+      "temporada": "A",
+      "area_sembrada": 3.0,
+      "riesgo_pct": 49.7,
+      "nivel": "BAJO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "QUIMBAYA",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "A",
+      "area_sembrada": 2.0,
+      "riesgo_pct": 49.7,
+      "nivel": "BAJO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "CORDOBA",
+      "cultivo": "TOMATE INVERNADERO",
+      "temporada": "A",
+      "area_sembrada": 8.0,
+      "riesgo_pct": 49.7,
+      "nivel": "BAJO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "ARMENIA",
+      "cultivo": "TOMATE INVERNADERO",
+      "temporada": "A",
+      "area_sembrada": 3.0,
+      "riesgo_pct": 49.7,
+      "nivel": "BAJO",
+      "perdida_real_pct": 0.0
+    }
+  ],
+  "RISARALDA": [
+    {
+      "municipio": "LA CELIA",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 25.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 48.0
+    },
+    {
+      "municipio": "PUEBLO RICO",
+      "cultivo": "FRIJOL",
+      "temporada": "B",
+      "area_sembrada": 50.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 20.0
+    },
+    {
+      "municipio": "LA CELIA",
+      "cultivo": "MAIZ TECNIFICADO",
+      "temporada": "B",
+      "area_sembrada": 8.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "SANTA ROSA DE CABAL",
+      "cultivo": "ARVEJA",
+      "temporada": "B",
+      "area_sembrada": 5.0,
+      "riesgo_pct": 84.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 20.0
+    },
+    {
+      "municipio": "PUEBLO RICO",
+      "cultivo": "FRIJOL",
+      "temporada": "A",
+      "area_sembrada": 50.0,
+      "riesgo_pct": 79.7,
+      "nivel": "ALTO",
+      "perdida_real_pct": 20.0
+    },
+    {
+      "municipio": "GUATICA",
+      "cultivo": "CILANTRO",
+      "temporada": "A",
+      "area_sembrada": 3.0,
+      "riesgo_pct": 76.8,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "GUATICA",
+      "cultivo": "FRIJOL",
+      "temporada": "A",
+      "area_sembrada": 90.0,
+      "riesgo_pct": 76.8,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "MISTRATO",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "A",
+      "area_sembrada": 60.0,
+      "riesgo_pct": 76.8,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "GUATICA",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "A",
+      "area_sembrada": 58.0,
+      "riesgo_pct": 76.8,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "SANTA ROSA DE CABAL",
+      "cultivo": "FRIJOL",
+      "temporada": "B",
+      "area_sembrada": 8.0,
+      "riesgo_pct": 73.7,
+      "nivel": "ALTO",
+      "perdida_real_pct": 12.5
+    },
+    {
+      "municipio": "PUEBLO RICO",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "B",
+      "area_sembrada": 80.0,
+      "riesgo_pct": 71.5,
+      "nivel": "ALTO",
+      "perdida_real_pct": 12.5
+    },
+    {
+      "municipio": "APIA",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "B",
+      "area_sembrada": 49.0,
+      "riesgo_pct": 71.5,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "GUATICA",
+      "cultivo": "ARRACACHA",
+      "temporada": "Anual",
+      "area_sembrada": 2.0,
+      "riesgo_pct": 63.0,
+      "nivel": "MEDIO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "SANTA ROSA DE CABAL",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "B",
+      "area_sembrada": 12.0,
+      "riesgo_pct": 59.2,
+      "nivel": "MEDIO",
+      "perdida_real_pct": 8.3
+    },
+    {
+      "municipio": "PEREIRA",
+      "cultivo": "SOYA",
+      "temporada": "B",
+      "area_sembrada": 10.0,
+      "riesgo_pct": 59.2,
+      "nivel": "MEDIO",
+      "perdida_real_pct": 10.0
+    }
+  ],
+  "SAN ANDRES Y PROVIDENCIA": [
+    {
+      "municipio": "SAN ANDRES",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 2.0,
+      "riesgo_pct": 39.7,
+      "nivel": "BAJO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "SAN ANDRES",
+      "cultivo": "BATATA",
+      "temporada": "A",
+      "area_sembrada": 2.0,
+      "riesgo_pct": 28.4,
+      "nivel": "BAJO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "SAN ANDRES",
+      "cultivo": "PATILLA",
+      "temporada": "A",
+      "area_sembrada": 2.0,
+      "riesgo_pct": 28.4,
+      "nivel": "BAJO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "PROVIDENCIA",
+      "cultivo": "AHUYAMA",
+      "temporada": "A",
+      "area_sembrada": 1.0,
+      "riesgo_pct": 8.4,
+      "nivel": "BAJO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "SAN ANDRES",
+      "cultivo": "MELON",
+      "temporada": "A",
+      "area_sembrada": 1.0,
+      "riesgo_pct": 8.4,
+      "nivel": "BAJO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "SAN ANDRES",
+      "cultivo": "ÑAME",
+      "temporada": "Anual",
+      "area_sembrada": 1.0,
+      "riesgo_pct": 0.0,
+      "nivel": "BAJO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "PROVIDENCIA",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 1.0,
+      "riesgo_pct": 0.0,
+      "nivel": "BAJO",
+      "perdida_real_pct": 0.0
+    }
+  ],
+  "SANTANDER": [
+    {
+      "municipio": "CHIMA",
+      "cultivo": "AHUYAMA",
+      "temporada": "A",
+      "area_sembrada": 3.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "BARRANCABERMEJA",
+      "cultivo": "AHUYAMA",
+      "temporada": "B",
+      "area_sembrada": 19.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "EL PLAYON",
+      "cultivo": "ARRACACHA",
+      "temporada": "Anual",
+      "area_sembrada": 20.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 50.0
+    },
+    {
+      "municipio": "SUAITA",
+      "cultivo": "ARRACACHA",
+      "temporada": "Anual",
+      "area_sembrada": 16.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 25.0
+    },
+    {
+      "municipio": "ONZAGA",
+      "cultivo": "CEBOLLA DE BULBO",
+      "temporada": "A",
+      "area_sembrada": 4.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "MATANZA",
+      "cultivo": "FRIJOL VOLUBLE",
+      "temporada": "B",
+      "area_sembrada": 20.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 10.0
+    },
+    {
+      "municipio": "GUACA",
+      "cultivo": "HABA",
+      "temporada": "A",
+      "area_sembrada": 9.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 22.2
+    },
+    {
+      "municipio": "GUACA",
+      "cultivo": "HABA",
+      "temporada": "B",
+      "area_sembrada": 9.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 22.2
+    },
+    {
+      "municipio": "LOS SANTOS",
+      "cultivo": "HABICHUELA",
+      "temporada": "A",
+      "area_sembrada": 20.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 15.0
+    },
+    {
+      "municipio": "MATANZA",
+      "cultivo": "HABICHUELA",
+      "temporada": "A",
+      "area_sembrada": 9.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 44.4
+    },
+    {
+      "municipio": "SUAITA",
+      "cultivo": "HABICHUELA",
+      "temporada": "B",
+      "area_sembrada": 90.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 90.0
+    },
+    {
+      "municipio": "MATANZA",
+      "cultivo": "HABICHUELA",
+      "temporada": "B",
+      "area_sembrada": 11.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 18.2
+    },
+    {
+      "municipio": "BARRANCABERMEJA",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "B",
+      "area_sembrada": 186.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 2.2
+    },
+    {
+      "municipio": "HATO",
+      "cultivo": "PATILLA",
+      "temporada": "A",
+      "area_sembrada": 4.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "LOS SANTOS",
+      "cultivo": "PIMENTON",
+      "temporada": "A",
+      "area_sembrada": 24.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 8.3
+    }
+  ],
+  "SUCRE": [
+    {
+      "municipio": "SAMPUES",
+      "cultivo": "ARROZ SECANO MANUAL",
+      "temporada": "A",
+      "area_sembrada": 10.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "CAIMITO",
+      "cultivo": "ARROZ SECANO MANUAL",
+      "temporada": "B",
+      "area_sembrada": 175.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 80.0
+    },
+    {
+      "municipio": "OVEJAS",
+      "cultivo": "BERENJENA",
+      "temporada": "A",
+      "area_sembrada": 70.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 28.6
+    },
+    {
+      "municipio": "GUARANDA",
+      "cultivo": "FRIJOL",
+      "temporada": "A",
+      "area_sembrada": 60.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 25.0
+    },
+    {
+      "municipio": "LOS PALMITOS",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "A",
+      "area_sembrada": 45.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 33.3
+    },
+    {
+      "municipio": "LOS PALMITOS",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "B",
+      "area_sembrada": 45.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 28.9
+    },
+    {
+      "municipio": "TOLU",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "B",
+      "area_sembrada": 20.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 25.0
+    },
+    {
+      "municipio": "LOS PALMITOS",
+      "cultivo": "MELON",
+      "temporada": "A",
+      "area_sembrada": 51.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 11.8
+    },
+    {
+      "municipio": "TOLU",
+      "cultivo": "MELON",
+      "temporada": "B",
+      "area_sembrada": 6.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 16.7
+    },
+    {
+      "municipio": "TOLUVIEJO",
+      "cultivo": "ÑAME",
+      "temporada": "Anual",
+      "area_sembrada": 200.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 25.0
+    },
+    {
+      "municipio": "SAMPUES",
+      "cultivo": "ÑAME",
+      "temporada": "Anual",
+      "area_sembrada": 120.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 41.7
+    },
+    {
+      "municipio": "SINCE",
+      "cultivo": "ÑAME",
+      "temporada": "Anual",
+      "area_sembrada": 61.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 9.8
+    },
+    {
+      "municipio": "LA UNION",
+      "cultivo": "ÑAME",
+      "temporada": "Anual",
+      "area_sembrada": 45.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 22.2
+    },
+    {
+      "municipio": "TOLU",
+      "cultivo": "ÑAME",
+      "temporada": "Anual",
+      "area_sembrada": 40.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 7.5
+    },
+    {
+      "municipio": "OVEJAS",
+      "cultivo": "ÑAME DIAMANTE",
+      "temporada": "Anual",
+      "area_sembrada": 1080.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 9.3
+    }
+  ],
+  "TOLIMA": [
+    {
+      "municipio": "SAN ANTONIO",
+      "cultivo": "ARRACACHA",
+      "temporada": "Anual",
+      "area_sembrada": 4.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 50.0
+    },
+    {
+      "municipio": "NATAGAIMA",
+      "cultivo": "ESTROPAJO",
+      "temporada": "A",
+      "area_sembrada": 15.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 33.3
+    },
+    {
+      "municipio": "ANZOATEGUI",
+      "cultivo": "FRIJOL",
+      "temporada": "B",
+      "area_sembrada": 180.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 83.9
+    },
+    {
+      "municipio": "ANZOATEGUI",
+      "cultivo": "HABICHUELA",
+      "temporada": "B",
+      "area_sembrada": 8.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 12.5
+    },
+    {
+      "municipio": "COYAIMA",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 250.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 64.0
+    },
+    {
+      "municipio": "ANZOATEGUI",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 60.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 58.3
+    },
+    {
+      "municipio": "SAN LUIS",
+      "cultivo": "AHUYAMA",
+      "temporada": "B",
+      "area_sembrada": 165.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 1.8
+    },
+    {
+      "municipio": "SAN LUIS",
+      "cultivo": "AJONJOLI",
+      "temporada": "B",
+      "area_sembrada": 80.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "ANZOATEGUI",
+      "cultivo": "ARVEJA",
+      "temporada": "B",
+      "area_sembrada": 90.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 33.3
+    },
+    {
+      "municipio": "MURILLO",
+      "cultivo": "CEBOLLA DE RAMA",
+      "temporada": "B",
+      "area_sembrada": 10.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 20.0
+    },
+    {
+      "municipio": "ANZOATEGUI",
+      "cultivo": "CEBOLLA DE RAMA",
+      "temporada": "B",
+      "area_sembrada": 8.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "SAN LUIS",
+      "cultivo": "FRIJOL",
+      "temporada": "B",
+      "area_sembrada": 15.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 6.7
+    },
+    {
+      "municipio": "SAN ANTONIO",
+      "cultivo": "HABICHUELA",
+      "temporada": "B",
+      "area_sembrada": 15.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 20.0
+    },
+    {
+      "municipio": "SAN LUIS",
+      "cultivo": "MAIZ TECNIFICADO",
+      "temporada": "B",
+      "area_sembrada": 860.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 3.5
+    },
+    {
+      "municipio": "SUAREZ",
+      "cultivo": "MAIZ TECNIFICADO",
+      "temporada": "B",
+      "area_sembrada": 30.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 33.3
+    }
+  ],
+  "VALLE DEL CAUCA": [
+    {
+      "municipio": "EL DOVIO",
+      "cultivo": "ARRACACHA",
+      "temporada": "Anual",
+      "area_sembrada": 120.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 10.0
+    },
+    {
+      "municipio": "CALI",
+      "cultivo": "ARVEJA",
+      "temporada": "B",
+      "area_sembrada": 5.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "ULLOA",
+      "cultivo": "MAIZ FORRAJERO",
+      "temporada": "B",
+      "area_sembrada": 12.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "CALI",
+      "cultivo": "PIMENTON",
+      "temporada": "B",
+      "area_sembrada": 3.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "SEVILLA",
+      "cultivo": "TOMATE INVERNADERO",
+      "temporada": "B",
+      "area_sembrada": 10.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 30.0
+    },
+    {
+      "municipio": "ZARZAL",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 7.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 14.3
+    },
+    {
+      "municipio": "BOLIVAR",
+      "cultivo": "AHUYAMA",
+      "temporada": "B",
+      "area_sembrada": 30.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "PRADERA",
+      "cultivo": "ARVEJA",
+      "temporada": "B",
+      "area_sembrada": 10.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "VERSALLES",
+      "cultivo": "BERENJENA",
+      "temporada": "B",
+      "area_sembrada": 4.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "LA UNION",
+      "cultivo": "BERENJENA",
+      "temporada": "B",
+      "area_sembrada": 6.0,
+      "riesgo_pct": 84.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 33.3
+    },
+    {
+      "municipio": "VIJES",
+      "cultivo": "CEBOLLA DE BULBO",
+      "temporada": "B",
+      "area_sembrada": 6.0,
+      "riesgo_pct": 84.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 33.3
+    },
+    {
+      "municipio": "RIOFRIO",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "B",
+      "area_sembrada": 8.0,
+      "riesgo_pct": 84.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 50.0
+    },
+    {
+      "municipio": "GUACARI",
+      "cultivo": "PEPINO COHOMBRO",
+      "temporada": "B",
+      "area_sembrada": 4.0,
+      "riesgo_pct": 84.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 25.0
+    },
+    {
+      "municipio": "VERSALLES",
+      "cultivo": "PIMENTON",
+      "temporada": "B",
+      "area_sembrada": 5.0,
+      "riesgo_pct": 84.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "OBANDO",
+      "cultivo": "TOMATE",
+      "temporada": "B",
+      "area_sembrada": 5.0,
+      "riesgo_pct": 84.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    }
+  ],
+  "VAUPES": [
+    {
+      "municipio": "MITU",
+      "cultivo": "ÑAME",
+      "temporada": "Anual",
+      "area_sembrada": 5.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "MITU",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "A",
+      "area_sembrada": 75.0,
+      "riesgo_pct": 68.1,
+      "nivel": "MEDIO",
+      "perdida_real_pct": 6.7
+    },
+    {
+      "municipio": "MITU",
+      "cultivo": "AJI",
+      "temporada": "A",
+      "area_sembrada": 15.0,
+      "riesgo_pct": 62.8,
+      "nivel": "MEDIO",
+      "perdida_real_pct": 6.7
+    },
+    {
+      "municipio": "MITU",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 1208.0,
+      "riesgo_pct": 53.1,
+      "nivel": "MEDIO",
+      "perdida_real_pct": 2.7
+    },
+    {
+      "municipio": "CARURU",
+      "cultivo": "ARROZ SECANO MANUAL",
+      "temporada": "A",
+      "area_sembrada": 10.0,
+      "riesgo_pct": 49.7,
+      "nivel": "BAJO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "CARURU",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "A",
+      "area_sembrada": 100.0,
+      "riesgo_pct": 49.7,
+      "nivel": "BAJO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "TARAIRA",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 147.0,
+      "riesgo_pct": 49.7,
+      "nivel": "BAJO",
+      "perdida_real_pct": 17.0
+    },
+    {
+      "municipio": "CARURU",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 300.0,
+      "riesgo_pct": 39.7,
+      "nivel": "BAJO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "MITU",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "B",
+      "area_sembrada": 82.0,
+      "riesgo_pct": 33.9,
+      "nivel": "BAJO",
+      "perdida_real_pct": 7.3
+    }
+  ],
+  "VICHADA": [
+    {
+      "municipio": "LA PRIMAVERA",
+      "cultivo": "PATILLA",
+      "temporada": "B",
+      "area_sembrada": 12.0,
+      "riesgo_pct": 88.0,
+      "nivel": "ALTO",
+      "perdida_real_pct": 8.3
+    },
+    {
+      "municipio": "PUERTO CARREÑO",
+      "cultivo": "AHUYAMA",
+      "temporada": "B",
+      "area_sembrada": 10.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 10.0
+    },
+    {
+      "municipio": "PUERTO CARREÑO",
+      "cultivo": "FRIJOL",
+      "temporada": "B",
+      "area_sembrada": 8.0,
+      "riesgo_pct": 85.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 12.5
+    },
+    {
+      "municipio": "PUERTO CARREÑO",
+      "cultivo": "MELON",
+      "temporada": "B",
+      "area_sembrada": 8.0,
+      "riesgo_pct": 84.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 25.0
+    },
+    {
+      "municipio": "LA PRIMAVERA",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "A",
+      "area_sembrada": 68.0,
+      "riesgo_pct": 79.7,
+      "nivel": "ALTO",
+      "perdida_real_pct": 4.4
+    },
+    {
+      "municipio": "SANTA ROSALIA",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "A",
+      "area_sembrada": 33.0,
+      "riesgo_pct": 79.7,
+      "nivel": "ALTO",
+      "perdida_real_pct": 6.1
+    },
+    {
+      "municipio": "CUMARIBO",
+      "cultivo": "AJI",
+      "temporada": "A",
+      "area_sembrada": 4.0,
+      "riesgo_pct": 76.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "PUERTO CARREÑO",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "A",
+      "area_sembrada": 8.0,
+      "riesgo_pct": 76.6,
+      "nivel": "ALTO",
+      "perdida_real_pct": 25.0
+    },
+    {
+      "municipio": "LA PRIMAVERA",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 80.0,
+      "riesgo_pct": 74.1,
+      "nivel": "ALTO",
+      "perdida_real_pct": 5.0
+    },
+    {
+      "municipio": "PUERTO CARREÑO",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "B",
+      "area_sembrada": 122.0,
+      "riesgo_pct": 71.5,
+      "nivel": "ALTO",
+      "perdida_real_pct": 19.7
+    },
+    {
+      "municipio": "PUERTO CARREÑO",
+      "cultivo": "PATILLA",
+      "temporada": "B",
+      "area_sembrada": 18.0,
+      "riesgo_pct": 71.5,
+      "nivel": "ALTO",
+      "perdida_real_pct": 5.6
+    },
+    {
+      "municipio": "SANTA ROSALIA",
+      "cultivo": "PATILLA",
+      "temporada": "B",
+      "area_sembrada": 10.0,
+      "riesgo_pct": 63.1,
+      "nivel": "MEDIO",
+      "perdida_real_pct": 0.0
+    },
+    {
+      "municipio": "SANTA ROSALIA",
+      "cultivo": "YUCA",
+      "temporada": "Anual",
+      "area_sembrada": 40.0,
+      "riesgo_pct": 56.5,
+      "nivel": "MEDIO",
+      "perdida_real_pct": 30.0
+    },
+    {
+      "municipio": "LA PRIMAVERA",
+      "cultivo": "ARROZ SECANO MANUAL",
+      "temporada": "B",
+      "area_sembrada": 67.0,
+      "riesgo_pct": 49.9,
+      "nivel": "BAJO",
+      "perdida_real_pct": 4.5
+    },
+    {
+      "municipio": "SANTA ROSALIA",
+      "cultivo": "MAIZ TRADICIONAL",
+      "temporada": "B",
+      "area_sembrada": 25.0,
+      "riesgo_pct": 49.9,
+      "nivel": "BAJO",
+      "perdida_real_pct": 8.0
+    }
+  ]
+}
