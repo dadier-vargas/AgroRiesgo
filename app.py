@@ -5,10 +5,15 @@ import numpy as np
 import pandas as pd
 from flask import Flask, render_template, request, jsonify
 
-app = Flask(__name__)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+app = Flask(
+    __name__,
+    template_folder=os.path.join(BASE_DIR, 'templates'),
+    static_folder=os.path.join(BASE_DIR, 'static')
+)
 
 # Cargar el bundle del modelo previamente entrenado
-BASE_DIR = os.path.dirname(__file__)
 MODEL_PATH = os.path.join(BASE_DIR, 'model_data', 'modelo_agroriesgo.pkl')
 PANEL_PATH = os.path.join(BASE_DIR, 'model_data', 'panel_extensionista.json')
 

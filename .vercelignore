@@ -1,0 +1,11 @@
+Evaluaciones_Agropecuarias_Municipales_EVA.csv
+Entrega2IA_Verona_Vargas_Ballesteros_Miranda.docx
+AgroRiesgo_IA_Implementacion.ipynb
+build_model.py
+export_panel.py
+iniciar_servidor.bat
+__pycache__
+*.pyc
+.git
+.gitignore
+.vercelignore
